@@ -1,2 +1,2 @@
 # readme
-**One more time, for good measure...**
+**One more time, for good measure.**
