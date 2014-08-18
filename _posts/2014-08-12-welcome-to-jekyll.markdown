@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Multi-Discipline!"
 date:   2014-08-12 17:06:51
 categories: jekyll update
 ---
