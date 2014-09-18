@@ -6,17 +6,17 @@ hilighter:        pygments
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            Multi-Discipline
+tagline:          "In a specialized world, I'm a generalist."
+url:              http://multi-discipline.com
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Jason Klug
+  url:            https://twitter.com/jasonmklug
+  email:          jason@klug.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/jasonmklug/jasonmklug.github.io
