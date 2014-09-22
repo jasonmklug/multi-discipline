@@ -7,14 +7,14 @@ permalink:        pretty
 
 # Setup
 title:            Multi-Discipline
-tagline:          "A generalist working in a specialized world."
+tagline:          "A generalist maker in a specialized world."
 url:              http://multi-discipline.com
-paginate:         1
+paginate:         5
 baseurl:          /
 author:
-  name:           Jason Klug
+  name:           Jason M. Klug
   url:            https://twitter.com/jasonmklug
-  email:          jason@klug.com
+  email:          jason@multi-discipline.com
 
 # Custom vars
 version:          1.0.0
