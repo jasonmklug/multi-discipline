@@ -20,3 +20,9 @@ author:
 version:          1.0.0
 github:
   repo:           https://github.com/jasonmklug/jasonmklug.github.io
+  
+# Amazon S3
+asset_hostname:       multi-discipline.s3.amazonaws.com
+
+# Amazon Affiliate Program
+amazon_affiliate_tag:   multidiscipline-20

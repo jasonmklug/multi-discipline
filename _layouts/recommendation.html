@@ -4,7 +4,14 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-metadata">{{ page.date | date: "%Y-%m-%d" }}</span>
+  <span class="post-metadata">Made by: {{ page.producer_name_array | array_to_sentence_string }}</span>
+  {% if (page.amazon_product_id != null && page.product_image_path != null) %}
+    <a href="{% include amazon_url.html %}" class="image_link">
+      {% include product_image.html %}
+    </a>
+  {% elsif page.product_image_path != null %}
+    {% include product_image.html %}
+  {% endif %}
   {{ content }}
 </div>
 
