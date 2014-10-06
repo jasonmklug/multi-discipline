@@ -8,6 +8,8 @@
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
+    {% elsif page.title == "Recommendations" %}
+      {{ site.title }} &middot; {{ "Recommendations" }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
