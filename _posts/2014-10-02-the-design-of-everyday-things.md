@@ -2,11 +2,11 @@
 layout: recommendation
 title: The Design of Everyday Things
 published: true
-category: recommendation
+category: recommendations
 product_name: The Design of Everyday Things
 producer_name_array: ['Donald A. Norman']
 amazon_product_id: '0465067107'
-product_image_path: /images/the_design_of_everyday_things.jpg
+product_image_path: /images/product/the_design_of_everyday_things.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum faucibus nisl, id interdum augue elementum vitae. Phasellus porta pellentesque turpis, vel aliquet turpis hendrerit id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum mauris vel nisi tincidunt vitae semper nisi euismod. Sed urna nisi, vehicula et rutrum eu, ornare in metus. Aliquam aliquam orci eget erat egestas scelerisque. Sed pharetra, dui a egestas adipiscing, diam nunc commodo tellus, eget lacinia tellus odio tincidunt sapien. Ut ac dui eget quam vestibulum dapibus. In ultricies dui a nibh consequat vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vehicula congue elit, et ornare ligula porta id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.

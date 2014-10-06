@@ -3,7 +3,7 @@ markdown:         redcarpet
 hilighter:        pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        /:year/:month/:day/:title/
 
 # Setup
 title:            Multi-Discipline

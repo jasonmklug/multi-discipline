@@ -1,0 +1,27 @@
+---
+layout: default
+title: Recommendations
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    {% if post.category == "recommendations" %}
+      <div class="post">
+        <h1 class="post-title">
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h1>
+        <span class="post-metadata">Made by: {{ post.producer_name_array | array_to_sentence_string }}</span>
+        {% if (post.amazon_product_id != null && post.product_image_path != null) %}
+          <a href="{% include amazon_url.html amazon_product_id=post.amazon_product_id %}" class="image_link">
+            <img src="http://{{ site.asset_hostname }}{{ post.product_image_path }}" class="product_image">
+          </a>
+        {% elsif page.product_image_path != null %}
+          <img src="http://{{ site.asset_hostname }}{{ post.product_image_path }}" class="product_image">
+        {% endif %}
+        {{ post.content }}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
