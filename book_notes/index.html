@@ -1,0 +1,42 @@
+---
+layout: default
+title: Book Notes
+---
+
+<div class="intro">
+  <h2>What Are Book Notes?</h2>
+  <p>
+    I take <em>super</em> simple notes on books as I read them, then post the books and my notes here.  I want to give you a sense of what I'm reading, as well as credit the authors who have shaped my thinking.
+  </p>
+  <p>
+    <small>
+      <strong>Credit due:</strong> "Book Notes" is a concept I first saw (and loved) on <a href="http://sivers.org/book" target="_blank">sivers.org</a>.
+    </small>
+  </p>
+</div>
+
+<div class="posts">
+  {% for post in site.categories.book_notes %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h1>
+      <span class="post-metadata">{{ post.producer_name_array | array_to_sentence_string }}</span>
+      <a href="{{ post.url }}" class="image_link">
+        <img src="http://{{ site.asset_hostname }}{{ post.product_image_path }}" class="product_image">
+      </a>
+      
+      {{ post.excerpt }}
+      
+      <a href="{{ post.url }}">
+        Read My Full Notes
+      </a>
+      &nbsp;&middot;&nbsp;
+      <a href="{% include amazon_url.html amazon_product_id=post.amazon_product_id %}" target="_blank">
+        Purchase on Amazon
+      </a>
+    </div>
+  {% endfor %}
+</div>

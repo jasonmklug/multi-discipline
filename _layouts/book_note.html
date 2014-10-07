@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">
+    {{ page.title }}
+  </h1>
+  <span class="post-metadata">{{ page.producer_name_array | array_to_sentence_string }}</span>
+  <img src="http://{{ site.asset_hostname }}{{ page.product_image_path }}" class="product_image">
+  
+  {{ content }}
+  
+  <a href="{% include amazon_url.html amazon_product_id=post.amazon_product_id %}" target="_blank">
+    Purchase on Amazon
+  </a>
+</div>
