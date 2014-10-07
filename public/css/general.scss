@@ -316,7 +316,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead-title {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   float: left;
   margin-top: 0;
   margin-bottom: 0;
@@ -340,8 +340,8 @@ tbody tr:nth-child(odd) th {
   list-style: none;
   font-family: "futura-pt";
   li.nav_link {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
     text-align: right;
   }
 }
@@ -469,6 +469,14 @@ a.pagination-item:hover {
       line-height: 1.2rem;
     }
   }
+  
+  .masthead ul.nav_links {
+    li.nav_link {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+  }
+  
   img.product_image {
     max-width: 240px;
   }
