@@ -9,7 +9,7 @@ My name is Jason Klug (<a href="http://twitter.com/jasonmklug" target="_blank">@
 
 ## What?
 
-At a high level, I like to consider myself a maker of things.  I've worked stints in a number of constructive and creative industries; the longest and most recent of which has been designing/building websites & web-based software.
+At a high level, I consider myself a maker of things.  I've worked stints in a number of constructive and creative industries; the longest and most recent of which has been designing/building websites & web-based software.
 
 ## Where?
 
