@@ -5,7 +5,7 @@ title: About
 
 ## Who?
 
-My name is Jason Klug (<a href="http://twitter.com/jasonmklug" target="_blank">@jasonmklug</a>, in some circles).
+My name is Jason Klug (@jasonmklug on <a href="http://twitter.com/jasonmklug" target="_blank">Twitter</a> and <a href="https://github.com/jasonmklug" target="_blank">GitHub</a>).
 
 ## What?
 
