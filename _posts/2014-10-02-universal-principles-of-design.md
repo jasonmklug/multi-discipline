@@ -9,7 +9,7 @@ amazon_product_id: '1592530079'
 product_image_path: /images/product/universal_principles_of_design.jpg
 ---
 
-### My Summary:
+### Summary:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus nisl, id interdum augue elementum vitae. Phasellus porta pellentesque turpis, vel aliquet turpis hendrerit id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum mauris vel nisi tincidunt vitae semper nisi euismod.
 <end_excerpt>

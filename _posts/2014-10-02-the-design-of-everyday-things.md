@@ -9,7 +9,7 @@ amazon_product_id: '0465067107'
 product_image_path: /images/product/the_design_of_everyday_things.jpg
 ---
 
-### My Summary:
+### Summary:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum faucibus nisl, id interdum augue elementum vitae. Phasellus porta pellentesque turpis, vel aliquet turpis hendrerit id.
 
