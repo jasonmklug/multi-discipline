@@ -38,7 +38,7 @@ The Jekyll features I wanted to build, though, required that I change my deploym
 
 ### Setting Up My VPS
 
-Configuring the DigitalOcean Droplet (their term for a VPS "unit") was straightforward; DigitalOcean's own system had me up and running with a virtual Linux (Ubuntu) "box" in no time, and I had the necessary user accounts, SSH Keys, etc. set up shortly thereafter (aided by [DigitalOcean's excellent documentation & tutorials](https://www.digitalocean.com/community)).
+Configuring the DigitalOcean Droplet (their term for a VPS "unit") was straightforward; DigitalOcean's own system had me up and running with a virtual Linux (Ubuntu) "box" in no time, and I had the necessary user accounts, SSH Keys, etc. set up shortly thereafter (aided by [DigitalOcean's excellent documentation & tutorials](https://www.digitalocean.com/community/?refcode=896afa34ae98)).
 
 **Context:** *Part of setting up this droplet involved directing web traffic from my domain name, multi-discipline.com, to my droplet's IP address.  In addition to being necessary for general web traffic, having that DNS `A Record` in place allowed me to use that hostname for other services (`ssh`, `git remote`, etc.) and have a single point of update should I move the site to a different server.*
 

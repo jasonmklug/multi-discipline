@@ -9,7 +9,6 @@ permalink:        /:year/:month/:day/:title/
 title:            Multi-Discipline
 tagline:          "The Problems and Solutions of a Generalist Maker"
 url:              http://multi-discipline.com
-paginate:         20
 baseurl:          /
 author:
   name:           Jason M. Klug
