@@ -7,7 +7,9 @@ category: webcraft
 
 Despite having worked on and around the web since 2006, it's been a while since I've had my own personal space which I controlled soup to nuts.
 
-Twitter has satisfied *most* of my *practical* publishing needs (low friction, low maintenance, publicly accessible, able to be individually hyperlinked), but the notion that I don't "own" my tweets is aggravating to my future-proofing sensibilities.  While I do capture archives of my tweets (first via an iPhone app called [Momento](http://www.momentoapp.com/``); more recently by running a custom install of Brett Terpstra's [Slogger](http://brettterpstra.com/projects/slogger/) to add my tweets to a personal [Day One](http://dayoneapp.com/) journal), it's not the same as controlling the data myself.
+Twitter has satisfied *most* of my *practical* publishing needs (low friction, low maintenance, publicly accessible, able to be individually hyperlinked), but the notion that I don't "own" my tweets is aggravating to my future-proofing sensibilities.
+
+While I do have systems in place to capture, for example, my tweets (first via an iPhone app called [Momento](http://www.momentoapp.com/``); more recently by running a custom install of Brett Terpstra's [Slogger](http://brettterpstra.com/projects/slogger/) to add my tweets to a personal [Day One](http://dayoneapp.com/) journal), it's not the same as having posts under my complete control.
 
 ## The Problem
 
