@@ -1,7 +1,7 @@
 ---
 layout: book_note
 title: The Design of Everyday Things
-published: true
+published: false
 category: book_notes
 product_name: The Design of Everyday Things
 producer_name_array: ['Donald A. Norman']

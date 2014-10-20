@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Maker Faire Milwaukee
-published: true
+published: false
 category: miscellany
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra ante eu lacus posuere in tempor dignissim. Etiam ac dolor sit amet nisi hendrerit commodo. Proin nibh tortor, molestie sit amet rutrum sed, condimentum ac dolor. Nunc quis orci non risus porta auctor nec ac felis. Suspendisse potenti. Proin ornare ante nec quam congue ultricies. Integer eget eleifend erat. Sed eu nisl nisl, id auctor mi. Proin dapibus arcu at tellus volutpat in fringilla turpis posuere. Aenean nibh augue, pretium vel ultrices consequat, ultrices vitae neque. Praesent fringilla erat eget purus tristique ullamcorper.
+My wife and I brought the kids (ages 9, 5, and 2) to [Maker Faire Milwaukee](http://makerfairemilwaukee.com/) this weekend.  This was my first time attending a Maker Faire, so I had little context for what to expect. 
+
+If I'm completely honest, I just hoped there'd be enough "kid stuff" to keep my children interested in sticking around so I could check out some 3D printers.

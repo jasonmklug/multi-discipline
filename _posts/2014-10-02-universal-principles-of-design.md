@@ -1,7 +1,7 @@
 ---
 layout: book_note
 title: Universal Principles of Design
-published: true
+published: false
 category: book_notes
 product_name: Universal Principles of Design
 producer_name_array: ['William Lidwell', 'Kritina Holden', 'Jill Butler']
