@@ -80,4 +80,4 @@ Secondly, the `post-receive hook` script couldn't write in the destination folde
 
 **Context:** *For security and peace-of-mind reasons, I set up a user account on my VPS which I would use for day-to-day system administration, but which __was not__ the system's default `root` account, since `root` is basically god as far as the system is concerned, and can do many harmful things if accidentally or maliciously misused.*
 
-The first time I successfully ran `git push remote droplet master` on my development laptop and found the properly compiled site being served at [http://multi-discipline.com](http://multi-discipline.com), I thrust my arms up in victory.  Success!
+The first time I successfully ran `git push droplet master` on my development laptop and found the properly compiled site being served at [http://multi-discipline.com](http://multi-discipline.com), I thrust my arms up in victory.  Success!
