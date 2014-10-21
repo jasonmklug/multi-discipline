@@ -70,6 +70,8 @@ As such, I needed to let Nginx know:
 
 I also needed to be sure the site configuration I did in `/sites-available/multi-discipline.com` was again expressed in that site's file in the `/sites-enabled` directory.  Since my setup is pretty straightforward (i.e. any site I have "available" should also be "enabled"), I symlinked the site file in `/sites-available` with its counterpart in `/sites-enabled`, meaning any future change to one of those files is carried through to the other.
 
+### Temporary Hangups
+
 At this point, I ran into some system-permissions-related problems.
 
 Firstoff, I'd forgotten to make the `post-receive hook` file executable (i.e. "able to be run"), so nothing was happening when my Git repository detected changes.  I fixed this with a `chmod`.
