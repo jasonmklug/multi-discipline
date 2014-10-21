@@ -76,7 +76,7 @@ At this point, I ran into some system-permissions-related problems.
 
 Firstoff, I'd forgotten to make the `post-receive hook` file executable (i.e. "able to be run"), so nothing was happening when my Git repository detected changes.  I fixed this with a `chmod`.
 
-Secondly, the `post-receive hook` script couldn't write in the destination folder (or, rather, a script *run by my user account* couldn't, and the `git remote droplet` set up on my laptop to push code to the VPS did so using my VPS user account's SSH Key), so I made my user account a member of the user group which has control over `/var/www` and its contents.  In my case (and, I believe, by default), this group was `www-data`.
+Secondly, the `post-receive hook` script couldn't write in the destination folder (or, rather, a script *run by my user account* couldn't, but needed to, since the `git remote` named `droplet` set up on my laptop to push code to the VPS did so using my VPS user account's SSH Key), so I made my user account a member of the user group which has control over `/var/www` and its contents.  In my case (and, I believe, by default), this group was `www-data`.
 
 **Context:** *For security and peace-of-mind reasons, I set up a user account on my VPS which I would use for day-to-day system administration, but which __was not__ the system's default `root` account, since `root` is basically god as far as the system is concerned, and can do many harmful things if accidentally or maliciously misused.*
 
