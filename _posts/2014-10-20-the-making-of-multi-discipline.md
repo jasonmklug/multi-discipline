@@ -13,7 +13,7 @@ While I do have systems in place to capture, for example, my tweets (first via a
 
 ## The Problem
 
-I'll never control the fate of my posts to Twitter, Tumblr, Facebook, or any other advertising-supported *"post here and we'll probably keep your stuff around for a few years"* platform.  But I *would* like most (if not all) of my day-to-day public writing to have the best possible chance of being around for my kids to discover when they're older.
+The fate of my posts to Twitter, Tumblr, or any other advertising-supported *"post here and we'll probably keep your stuff around for a few years"* platform is, ultimately, out of my hands.  But I *would* like most (if not all) of my day-to-day public writing to have the best possible chance of being around for my kids to discover when they're older.
 
 ## The Solution
 
