@@ -23,7 +23,7 @@ I'm building out my own little corner of the web where I control the presentatio
 
 + Static Site Generator ([Jekyll](http://jekyllrb.com/))
 + VPS ([Digital Ocean](https://www.digitalocean.com/?refcode=896afa34ae98))
-+ Web Server ([Nginx](http://nginx.org/))
++ Web Server ([nginx](http://nginx.org/))
 + Programming Language ([Ruby](https://www.ruby-lang.org/))
 + Templating Language ([Liquid](http://liquidmarkup.org/))
 + Source Control ([Git](http://git-scm.com/))
@@ -53,13 +53,13 @@ The driving force of all that server-side processing is a Git `post-receive hook
 1. Tells Jekyll to turn my site's un-compiled content files, layout partials, and assets into a functioning and inter-linked set of web pages (in other words, makes the disparate parts into a proper web site).
 2. Clones the generated `/site` folder to a particular directory on the VPS (where, in a future step, we'll tell the web server to look for the page files as they're requested).
 
-### Setting Up Nginx As My Web Server
+### Setting Up nginx As My Web Server
 
-While I've done some basic system administration work in the past, I've never actually installed and configured my own web server (Nginx, in this case) on a clean system.
+While I've done some basic system administration work in the past, I've never actually installed and configured my own web server (nginx, in this case) on a clean system.
 
-Nginx does the work of listening for requests which come in, and serving the appropriate files from my VPS back to the web browser which requested them.
+nginx does the work of listening for requests which come in, and serving the appropriate files from my VPS back to the web browser which requested them.
 
-As such, I needed to let Nginx know:
+As such, I needed to let nginx know:
 
 + The port on which it should be listening for web requests (standard is `80`)
 + The IP address from which it is serving (the IP address of my DigitalOcean Droplet)
