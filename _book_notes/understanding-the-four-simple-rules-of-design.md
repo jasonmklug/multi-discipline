@@ -1,7 +1,7 @@
 ---
 layout: book_note
 title: "Understanding the 4 Rules of Simple Design"
-published: true
+published: false
 product_name: "Understanding the 4 Rules of Simple Design"
 producer_name_array: ['Corey Haines']
 amazon_product_id: #MUST BE A STRING, NOT AN INTEGER

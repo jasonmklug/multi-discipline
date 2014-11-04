@@ -1,7 +1,7 @@
 ---
 layout: book_note
 title: Universal Principles of Design
-published: true
+published: false
 product_name: Universal Principles of Design
 producer_name_array: ['William Lidwell', 'Kritina Holden', 'Jill Butler']
 amazon_product_id: '1592530079'

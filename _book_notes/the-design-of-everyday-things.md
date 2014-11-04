@@ -1,7 +1,7 @@
 ---
 layout: book_note
 title: The Design of Everyday Things
-published: true
+published: false
 product_name: The Design of Everyday Things
 producer_name_array: ['Donald A. Norman']
 amazon_product_id: '0465067107' #MUST BE A STRING, NOT AN INTEGER
