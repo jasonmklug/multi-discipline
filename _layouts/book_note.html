@@ -6,12 +6,24 @@ layout: default
   <h1 class="post-title">
     {{ page.title }}
   </h1>
-  <span class="post-metadata">{{ page.producer_name_array | array_to_sentence_string }}</span>
-  <img src="http://{{ site.asset_hostname }}{{ page.product_image_path }}" class="product_image">
+  <span class="post-metadata">By: {{ page.producer_name_array | array_to_sentence_string }}</span>
+  <img src="http://{{ site.asset_hostname }}{{ page.product_image_path }}" class="product_image bordered">
   
   {{ content }}
   
-  <a href="{% include amazon_url.html amazon_product_id=page.amazon_product_id %}" target="_blank">
-    Purchase on Amazon
-  </a>
+  <div class="action_links">
+    {% if page.amazon_product_id != nil %}
+    <a href="{% include amazon_url.html amazon_product_id=page.amazon_product_id %}" target="_blank">
+      Purchase Book on Amazon
+    </a>
+    {% elsif page.non_amazon_purchase_url != nil %}
+      <a href="{{ page.non_amazon_purchase_url }}" target="_blank">
+        {% if page.non_amazon_retailer_name != nil %}
+          Purchase Book on {{ page.non_amazon_retailer_name }}
+        {% else %}
+          Purchase Book
+        {% endif %}
+      </a>
+    {% endif %}
+  </div>
 </div>

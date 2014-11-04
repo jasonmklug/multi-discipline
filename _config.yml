@@ -17,10 +17,15 @@ author:
   email:          jason@multi-discipline.com
 excerpt_separator: <end_excerpt>
 
+# Collections
+collections:
+  book_notes:
+    output: true
+    permalink: /book_notes/:path/
+
 # Custom vars
-version:          1.0.0
 github:
-  repo:           https://github.com/jasonmklug/jasonmklug.github.io
+  repo:           https://github.com/jasonmklug/multi-discipline
   
 # Amazon S3
 asset_hostname:       multi-discipline.s3.amazonaws.com
