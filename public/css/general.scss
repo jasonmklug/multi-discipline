@@ -396,7 +396,7 @@ tbody tr:nth-child(odd) th {
       margin: .2em 0 .3em 0;
     }
     display: block;
-    width: 40%;
+    width: 60%;
     text-align: center;
     label {
       color: #fff;
@@ -559,6 +559,23 @@ a.pagination-item:hover {
     }
   }
   
+  .footer {
+    form#tinyletter {
+      h2 {
+        font-size: 1.4em;
+      }
+      width: 50%;
+      label {
+        color: #fff;
+      }
+      p.subtext {
+        margin: .2em 0 0 0;
+        font-size: 1.1em;
+        line-height: 1.1em;
+      }
+    }
+  }
+  
   .masthead ul.nav_links, .footer ul.nav_links {
     li.nav_link {
       padding: .4rem;
@@ -603,6 +620,24 @@ a.pagination-item:hover {
 @media (min-width: 38em) {
   html {
     font-size: 18px;
+  }
+  
+  .footer {
+    form#tinyletter {
+      h2 {
+        margin: .2em 0 .3em 0;
+        font-size: 1.4em;
+      }
+      width: 45%;
+      label {
+        color: #fff;
+      }
+      p.subtext {
+        margin: .2em 0 0 0;
+        font-size: 1.2em;
+        line-height: 1.2em;
+      }
+    }
   }
   
   ul.podcasts {
