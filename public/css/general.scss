@@ -390,9 +390,10 @@ tbody tr:nth-child(odd) th {
 .footer {
   background-color: $base;
   margin-top: 3em;
+  padding-bottom: 1em;
   form#tinyletter {
     h2 {
-      margin: 0 0 .3em 0;
+      margin: .2em 0 .3em 0;
     }
     display: block;
     width: 40%;
@@ -407,6 +408,11 @@ tbody tr:nth-child(odd) th {
       font-size: .9em;
       text-align: center;
       color: #333;
+    }
+    p.subtext {
+      margin: .2em 0 0 0;
+      font-size: 1.1em;
+      line-height: 1.1em;
     }
   }
 }
@@ -553,7 +559,7 @@ a.pagination-item:hover {
     }
   }
   
-  .masthead ul.nav_links {
+  .masthead ul.nav_links, .footer ul.nav_links {
     li.nav_link {
       padding: .4rem;
       font-size: 1.2rem;
