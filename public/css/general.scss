@@ -401,7 +401,7 @@ tbody tr:nth-child(odd) th {
     label {
       color: #fff;
     }
-    input[type=text] {
+    input[type=text], input[type=email] {
       width: 96%;
       margin: 0 0 .3em 0;
       padding: .3em;
@@ -503,11 +503,11 @@ ul.podcasts {
   list-style: none;
   li.podcast {
     float: left;
-    margin: 8px;
+    margin: 4px;
     padding: 0px;
     img.podcast_art {
-      width: 108px;
-      height: 108px;
+      width: 72px;
+      height: 72px;
       margin: 0px;
       padding: 0px;
       border: 1px solid #ccc;
@@ -570,6 +570,17 @@ a.pagination-item:hover {
   img.product_image {
     max-width: 240px;
   }
+  
+  ul.podcasts {
+    li.podcast {
+      margin: 8px;
+      img.podcast_art {
+        width: 72px;
+        height: 72px;
+      }
+    }
+  }
+  
   .pagination {
     margin: 3rem 0;
   }
@@ -592,6 +603,16 @@ a.pagination-item:hover {
 @media (min-width: 38em) {
   html {
     font-size: 18px;
+  }
+  
+  ul.podcasts {
+    li.podcast {
+      margin: 8px;
+      img.podcast_art {
+        width: 108px;
+        height: 108px;
+      }
+    }
   }
 }
 
