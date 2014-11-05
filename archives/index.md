@@ -3,7 +3,7 @@ layout: default
 title: Post Archivesjeky
 ---
 
-# Archives Not Yet Available
+# Archives Not Yet Necessary
 
 The site hasn't yet reached the number of posts which would require pagination, let alone archives.
 
