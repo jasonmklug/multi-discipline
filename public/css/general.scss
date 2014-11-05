@@ -1,19 +1,30 @@
 ---
 ---
 
-/*
- * Contents
- *
- * Body resets
- * Custom type
- * Messages
- * Container
- * Masthead
- * Posts and pages
- * Pagination
- * Reverse layout
- * Themes
- */
+/* * * * * * * * * * * * * * * * */	
+/* * * MIX-INS * * * * * * * * * */	
+/* * * * * * * * * * * * * * * * */
+
+@mixin linear_gradient($top_color, $bottom_color) {
+	background: $top_color;
+	background: -webkit-gradient(linear, left top, left bottom, from($top_color),to($bottom_color));
+	background: -webkit-linear-gradient(top, $top_color, $bottom_color);
+	background: -moz-linear-gradient(top, $top_color, $bottom_color);
+	background: -o-linear-gradient(top, $top_color, $bottom_color);
+	background: -ms-linear-gradient(top, $top_color, $bottom_color);
+	background: linear-gradient(top, $top_color, $bottom_color);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='$top_color', EndColorStr='$bottom_color');
+}
+
+/* * * * * * * * * * * * * */
+/* THEME COLORS  * * * * * */
+/* * * * * * * * * * * * * */
+
+$base:			#3684d7;
+$offbase:		#8dcbbc;
+$accent:		#fc8d4d;
+$warning:		#fc694d;
+$notice:		#faba32;
 
 
 /*
@@ -49,7 +60,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #3684d7;
+  color: $base;
   text-decoration: none;
 }
 a strong {
@@ -64,6 +75,32 @@ a:focus {
 /* Used to prevent full-width hover target for anchors that contain images */
 a.image_link {
   display: inline;
+}
+
+a.buttonified, .submit.buttonified {
+	display: inline-block;
+	margin: 12px auto;
+	padding: .5em 1.2em;
+	font-size: 1em;
+	text-align: center;
+	color: #fff;
+	background-color: $accent;
+	@include linear_gradient( lighten($accent, 5%), darken($accent, 5%) );
+	border-radius: 9px;
+	border: 2px solid #fff;
+	//box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+	&:hover {
+		background-color: lighten($accent, 5%);
+		@include linear_gradient( lighten($accent, 10%), darken($accent, 0%) );
+	}
+	&:active {
+		position: relative;
+		top: 1px;
+		left: 1px;
+		//box-shadow: 0px 0px 3px rgba(0, 0, 0, .25);
+		background-color: lighten($accent, 0%);
+		@include linear_gradient( lighten($accent, 5%), darken($accent, 5%) );
+	}
 }
 
 /* Headings */
@@ -307,13 +344,16 @@ tbody tr:nth-child(odd) th {
  * Super small header above the content for site name and short description.
  */
 
-.masthead {
+.masthead, .footer {
   padding-top:    1.5rem;
   padding-bottom: .5rem;
-  margin-bottom: 3rem;
-  background-color: #3684d7;
+  background-color: $base;
   overflow: auto;
   width: 100%;
+}
+
+.masthead {
+  margin-bottom: 3rem;
 }
 
 .masthead-title {
@@ -332,10 +372,10 @@ tbody tr:nth-child(odd) th {
   }
 }
 
-.masthead a {
+.masthead a, .footer a {
   color: #fff;
 }
-.masthead ul.nav_links {
+.masthead ul.nav_links, .footer ul.nav_links {
   float: right;
   padding-left: 0px;
   list-style: none;
@@ -344,6 +384,30 @@ tbody tr:nth-child(odd) th {
     font-size: 1.1rem;
     line-height: 1.4rem;
     text-align: right;
+  }
+}
+
+.footer {
+  background-color: $base;
+  margin-top: 3em;
+  form#tinyletter {
+    h2 {
+      margin: 0 0 .3em 0;
+    }
+    display: block;
+    width: 40%;
+    text-align: center;
+    label {
+      color: #fff;
+    }
+    input[type=text] {
+      width: 96%;
+      margin: 0 0 .3em 0;
+      padding: .3em;
+      font-size: .9em;
+      text-align: center;
+      color: #333;
+    }
   }
 }
 
@@ -474,10 +538,6 @@ ul.podcasts {
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
   background-color: #f5f5f5;
-}
-
-.footer {
-  padding-top: 3em;
 }
 
 
