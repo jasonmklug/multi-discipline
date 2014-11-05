@@ -1,0 +1,19 @@
+---
+layout: default
+title: Podcasts
+---
+
+<h1>Recommended Podcasts</h1>
+
+<p>I get a great many ideas from the maker/developer/problem-solver podcasts to which I subscribe.  Give them a listen!</p>
+
+<ul class="podcasts">
+  {% assign podcasts = site.data.podcasts | sort:"name" %}
+  {% for podcast in podcasts %}
+  <li class="podcast">
+    <a href="{{ podcast.site_url }}" target="_blank">
+      <img src="{{ podcast.artwork_image }}" class="podcast_art" alt="Podcast artwork for {{ podcast.name }}" />
+    </a>
+  </li>
+  {% endfor %}
+</ul>
