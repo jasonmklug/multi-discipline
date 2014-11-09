@@ -17,47 +17,50 @@ permalink: /book_notes/
 </div>
 
 <div class="posts">
+  
   {% for book in site.book_notes %}
-    <div class="post">
-      <h1 class="post-title">
-        <a href="{{ book.url }}">
-          {{ book.product_name }}
-        </a>
-      </h1>
-      <span class="post-metadata">By: {{ book.producer_name_array | array_to_sentence_string }}</span>
-      <a href="{{ book.url }}" class="image_link">
-        <img src="http://{{ site.asset_hostname }}{{ book.product_image_path }}" class="product_image bordered">
-      </a>
-      
-      {% if book.content contains '<end_excerpt>' %}
-	
-      	{{ book.content | split:'<end_excerpt>' | first }}
-
-      {% else %}
-
-      	{{ book.content }}
-	
-      {% endif %}
-      
-      <div class="action_links">
-        <a href="{{ book.url }}">
-          Read My Full Notes
-        </a>
-        &nbsp;&middot;&nbsp;
-        {% if book.amazon_product_id != nil %}
-        <a href="{% include amazon_url.html amazon_product_id=book.amazon_product_id %}" target="_blank">
-          Purchase Book on Amazon
-        </a>
-        {% elsif book.non_amazon_purchase_url != nil %}
-          <a href="{{ book.non_amazon_purchase_url }}" target="_blank">
-            {% if book.non_amazon_retailer_name != nil %}
-              Purchase Book on {{ book.non_amazon_retailer_name }}
-            {% else %}
-              Purchase Book
-            {% endif %}
+    {% if book.published == true %}
+      <div class="post">
+        <h1 class="post-title">
+          <a href="{{ book.url }}">
+            {{ book.product_name }}
           </a>
+        </h1>
+        <span class="post-metadata">By: {{ book.producer_name_array | array_to_sentence_string }}</span>
+        <a href="{{ book.url }}" class="image_link">
+          <img src="http://{{ site.asset_hostname }}{{ book.product_image_path }}" class="product_image bordered">
+        </a>
+        
+        {% if book.content contains '<end_excerpt>' %}
+	    
+        	{{ book.content | split:'<end_excerpt>' | first }}
+      
+        {% else %}
+      
+        	{{ book.content }}
+	    
         {% endif %}
+        
+        <div class="action_links">
+          <a href="{{ book.url }}">
+            Read My Full Notes
+          </a>
+          &nbsp;&middot;&nbsp;
+          {% if book.amazon_product_id != nil %}
+          <a href="{% include amazon_url.html amazon_product_id=book.amazon_product_id %}" target="_blank">
+            Purchase Book on Amazon
+          </a>
+          {% elsif book.non_amazon_purchase_url != nil %}
+            <a href="{{ book.non_amazon_purchase_url }}" target="_blank">
+              {% if book.non_amazon_retailer_name != nil %}
+                Purchase Book on {{ book.non_amazon_retailer_name }}
+              {% else %}
+                Purchase Book
+              {% endif %}
+            </a>
+          {% endif %}
+        </div>
       </div>
-    </div>
+    {% endif %}
   {% endfor %}
 </div>
