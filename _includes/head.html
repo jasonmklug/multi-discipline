@@ -8,10 +8,14 @@
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
-    {% elsif page.title == "Recommendations" %}
-      {{ site.title }} &middot; {{ "Recommendations" }}
+    {% elsif site.page_title_array contains page.title %}
+      {{ site.title }} &middot; {{ page.title }}
+    {% elsif site.collections contains page.collection %}
+      {% if page.collection == "book_notes" %}
+        {{ site.title }} &middot; Notes on "{{ page.product_name  }}" by {{ page.producer_name_array | array_to_sentence_string }}
+      {% endif %}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ site.title }}: {{ page.title }}
     {% endif %}
   </title>
 

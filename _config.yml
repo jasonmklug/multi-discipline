@@ -2,8 +2,8 @@
 markdown:         redcarpet
 hilighter:        pygments
 
-# Permalinks
-permalink:        /:year/:month/:day/:title/
+# Environment
+timezone:         America/Chicago
 
 # Setup
 title:            Multi-Discipline
@@ -11,11 +11,13 @@ tagline:          "The Problems and Solutions of a Generalist Maker"
 url:              http://multi-discipline.com
 paginate:         20
 baseurl:          /
+permalink:        /:year/:month/:day/:title/
 author:
   name:           Jason M. Klug
   url:            https://twitter.com/jasonmklug
   email:          jason@multi-discipline.com
 excerpt_separator: <end_excerpt>
+page_title_array: ["About", "Book Notes", "Recommended Podcasts", "Post Archives"]
 
 # Collections
 collections:

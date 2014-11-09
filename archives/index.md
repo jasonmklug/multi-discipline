@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Post Archivesjeky
+title: Post Archives
 ---
 
 # Archives Not Yet Necessary

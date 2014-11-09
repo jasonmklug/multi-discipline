@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">
-    {{ page.title }}
+    {{ page.product_name }}
   </h1>
   <span class="post-metadata">By: {{ page.producer_name_array | array_to_sentence_string }}</span>
   <img src="http://{{ site.asset_hostname }}{{ page.product_image_path }}" class="product_image bordered">
