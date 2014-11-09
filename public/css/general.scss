@@ -433,7 +433,7 @@ div.page_content {
   font-size: 1.2rem;
   margin-bottom: 3em;
   padding-bottom: 2em;
-  border-bottom: 1px dashed #000;
+  border-bottom: 3px dashed #000;
 }
 
 .page,
@@ -447,7 +447,10 @@ div.page_content {
   .post {
     margin-bottom: 3em;
     padding-bottom: 3em;
-    border-bottom: 1px dashed #000;
+    border-bottom: 3px dashed #000;
+    &:last-child {
+      border-bottom: none;
+    }
   }
 }
 
