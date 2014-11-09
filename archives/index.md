@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Post Archives
+permalink: /archives/
 ---
 
 # Archives Not Yet Necessary

@@ -1,6 +1,6 @@
 ---
 layout: book_note
-published: false
+published: true
 product_name: "Understanding the 4 Rules of Simple Design"
 producer_name_array: ['Corey Haines']
 amazon_product_id:
