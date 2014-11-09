@@ -18,6 +18,9 @@
       {{ site.title }}: {{ page.title }}
     {% endif %}
   </title>
+  
+  <!-- Canonical Source for Page Content -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/general.css">
