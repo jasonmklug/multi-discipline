@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Problem: Podcast Discovery & Recommendation"
-published: false
+title: "Podcast Discovery & Recommendation"
+published: true
 category: problems
 ---
 
