@@ -16,7 +16,7 @@ title: Book Notes
 </div>
 
 <div class="posts">
-  {% for book in site.book_notes %}
+  {% for book in site.book_notes.published %}
     <div class="post">
       <h1 class="post-title">
         <a href="{{ book.url }}">
