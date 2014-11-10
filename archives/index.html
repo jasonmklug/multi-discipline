@@ -16,15 +16,17 @@ permalink: /archives/
       <h1>{{ loopyear }}</h1>
       {% capture year %}{{ loopyear }}{% endcapture %}
     {% endif %}
+    
     {% if loopmonthyear != monthyear %}
       {% unless freshyear == "true" %}</ul>{% endunless %}
       <h2>{{ loopmonth }}</h2>
-      <ul>
+      <ul class="post_titles">
       {% capture monthyear %}{{ loopmonthyear }}{% endcapture %}
     {% endif %}
     
   {% endif %}
       <li class="post_title">
+        <span>{{ post.date | date: "%b %-d" }}</span>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
       {% if forloop.last %}</ul>{% endif %}

@@ -518,6 +518,19 @@ ul.podcasts {
     }
   }
 }
+
+ul.post_titles {
+  padding-left: 0px;
+  list-style: none;
+  li.post_title {
+    span {
+      margin-right: 6px;
+      font-family: "futura-pt";
+      text-transform: uppercase;
+      color: #9a9a9a;
+    }
+  }
+}
 /*
  * Pagination
  *
