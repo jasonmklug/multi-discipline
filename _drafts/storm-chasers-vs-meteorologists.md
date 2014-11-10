@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Storm Chasers vs. Meteorologists
-published: false
+published: true
 category: media-and-communications
 ---
 
