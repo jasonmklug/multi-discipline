@@ -31,17 +31,9 @@ permalink: /book_notes/
           <img src="http://{{ site.asset_hostname }}{{ book.product_image_path }}" class="product_image bordered">
         </a>
         
-        {% if book.content contains site.excerpt_separator %}
-        
-          {% comment %}Trim content to 'excerpt_separator', then replace the lost paragraph-closing element{% endcomment %}
-        	{{ book.content | split: site.excerpt_separator | first | append: "</p>" }}
-          
-        {% else %}
-      
-        	{{ book.content }}
-	    
-        {% endif %}
-        
+        {% comment %} Trim content to first instance of 'excerpt_separator' (defined in _config.yml) {% endcomment %}
+        {{ book.content | split: site.excerpt_separator | first }}
+                  
         <div class="action_links">
           <a href="{{ book.url }}">
             Read My Full Notes
