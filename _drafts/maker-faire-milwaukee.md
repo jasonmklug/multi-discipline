@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Maker Faire Milwaukee
-published: true
+published: false
 category: miscellany
 ---
 
