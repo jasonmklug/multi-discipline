@@ -11,8 +11,7 @@ product_image_path: /images/product/understanding_the_4_rules_of_simple_design.j
 
 ### Summary:
 
-Summary starts here.
-<end_excerpt>
+Summary starts here.<end_excerpt>
 
 ### My Notes:
 
