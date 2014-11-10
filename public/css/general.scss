@@ -527,7 +527,7 @@ ul.post_list {
     font-family: "futura-pt";
     font-weight: 700;
     line-height: 1em;
-    .post_date {
+    span.post_date {
       display: inline-block;
       vertical-align: top;
       margin-right: 6px;
@@ -536,10 +536,13 @@ ul.post_list {
       text-transform: uppercase;
       color: #9a9a9a;
     }
-    .post_title {
+    span.post_title {
       display: inline-block;
       vertical-align: top;
       width: 60%;
+      a {
+        color: #313131;
+      }
     }
   }
 }
