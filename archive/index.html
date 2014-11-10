@@ -20,14 +20,14 @@ permalink: /archive/
     {% if loopmonthyear != monthyear %}
       {% unless freshyear == "true" %}</ul>{% endunless %}
       <h2>{{ loopmonth }}</h2>
-      <ul class="post_titles">
+      <ul class="post_list">
       {% capture monthyear %}{{ loopmonthyear }}{% endcapture %}
     {% endif %}
     
   {% endif %}
-      <li class="post_title">
-        <span>{{ post.date | date: "%Y-%m-%d" }}</span>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+      <li class="post_list_item">
+        <span class="post_date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <span class="post_title"><a href="{{ post.url }}">{{ post.title }}</a><span>
       </li>
       {% if forloop.last %}</ul>{% endif %}
   {% capture freshyear %}{{ false }}{% endcapture %}

@@ -519,15 +519,27 @@ ul.podcasts {
   }
 }
 
-ul.post_titles {
+ul.post_list {
   padding-left: 0px;
   list-style: none;
-  li.post_title {
-    span {
+  li.post_list_item {
+    font-size: 1.25em;
+    font-family: "futura-pt";
+    font-weight: 700;
+    line-height: 1em;
+    .post_date {
+      display: inline-block;
+      vertical-align: top;
       margin-right: 6px;
-      font-family: "futura-pt";
+      font-size: .75em;
+      font-weight: normal;
       text-transform: uppercase;
       color: #9a9a9a;
+    }
+    .post_title {
+      display: inline-block;
+      vertical-align: top;
+      width: 60%;
     }
   }
 }
