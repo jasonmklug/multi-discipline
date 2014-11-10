@@ -1,0 +1,32 @@
+---
+layout: default
+title: Post Archives
+permalink: /archives/
+---
+
+{% for post in site.posts %}
+  {% capture loopmonthyear %}{{ post.date | date: "%B %Y" }}{% endcapture %}
+  {% capture loopyear %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% capture loopmonth %}{{ post.date | date: "%B" }}{% endcapture %}
+  {% if loopmonthyear != monthyear %}
+
+    {% if loopyear != year %}
+      {% capture freshyear %}{{ true }}{% endcapture %}
+      {% unless forloop.first %}</ul>{% endunless %}
+      <h1>{{ loopyear }}</h1>
+      {% capture year %}{{ loopyear }}{% endcapture %}
+    {% endif %}
+    {% if loopmonthyear != monthyear %}
+      {% unless freshyear == "true" %}</ul>{% endunless %}
+      <h2>{{ loopmonth }}</h2>
+      <ul>
+      {% capture monthyear %}{{ loopmonthyear }}{% endcapture %}
+    {% endif %}
+    
+  {% endif %}
+      <li class="post_title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% if forloop.last %}</ul>{% endif %}
+  {% capture freshyear %}{{ false }}{% endcapture %}
+{% endfor %}
