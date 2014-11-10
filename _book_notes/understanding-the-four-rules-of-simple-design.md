@@ -11,7 +11,15 @@ product_image_path: /images/product/understanding_the_4_rules_of_simple_design.j
 
 ### Summary:
 
-Summary starts here.<end_excerpt>
+This book spoke to me in the following ways:
+
++ Way 1
++ Way 2
++ Way 3
+
+This is another thing.
+
+<!-- excerpt_separator -->
 
 ### My Notes:
 
