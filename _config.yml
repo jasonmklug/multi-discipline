@@ -17,7 +17,7 @@ author:
   url:            https://twitter.com/jasonmklug
   email:          jason@multi-discipline.com
 excerpt_separator: <!-- excerpt_separator -->
-page_title_array: ["About", "Book Notes", "Recommended Podcasts", "Post Archives"]
+page_title_array: ["About", "Book Notes", "Recommended Podcasts", "Post Archive"]
 
 # Collections
 collections:
