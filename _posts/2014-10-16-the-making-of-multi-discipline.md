@@ -21,12 +21,12 @@ I'm building out my own little corner of the web where I control the presentatio
 
 ## The Tools
 
-+ Static Site Generator ([Jekyll](http://jekyllrb.com/))
-+ VPS ([Digital Ocean](https://www.digitalocean.com/?refcode=896afa34ae98))
-+ Web Server ([nginx](http://nginx.org/))
-+ Programming Language ([Ruby](https://www.ruby-lang.org/))
-+ Templating Language ([Liquid](http://liquidmarkup.org/))
-+ Source Control ([Git](http://git-scm.com/))
++ **Static Site Generator** ([Jekyll](http://jekyllrb.com/))
++ **VPS** ([Digital Ocean](https://www.digitalocean.com/?refcode=896afa34ae98))
++ **Web Server** ([nginx](http://nginx.org/))
++ **Programming Language** ([Ruby](https://www.ruby-lang.org/))
++ **Templating Language** ([Liquid](http://liquidmarkup.org/))
++ **Source Control** ([Git](http://git-scm.com/))
 
 ## The Process
 
@@ -80,4 +80,8 @@ Secondly, the `post-receive hook` script couldn't write in the destination folde
 
 **Context:** *For security and peace-of-mind reasons, I set up a user account on my VPS which I would use for day-to-day system administration, but which __was not__ the system's default `root` account, since `root` is basically god as far as the system is concerned, and can do many harmful things if accidentally or maliciously misused.*
 
+## The Outcome
+
 The first time I successfully ran `git push droplet master` on my development machine and found the properly compiled site being served at [http://multi-discipline.com](http://multi-discipline.com), I threw my arms up in victory.  Success!
+
+From this point on, I have the ability (if not the time) to post lengthy screeds at will and trust they’ll be around until the day I no longer want them to be (or until my DigitalOcean payment method fails — whichever comes first).
