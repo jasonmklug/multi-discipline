@@ -19,7 +19,7 @@ There is a vast (and growing) landscape of podcasts available to any listener wi
 
 Or, approached from the "recommender" side: when one listener finds a show or episode they really like, they have limited outlets through which they can recommend it to other would-be listeners.
 
-Speaking for myself: I *almost* always tweet a link to the feed and/or episode URL of a show which I find interesting, entertaining, or useful.  But I wouldn't be surprised if those recommendation tweets (given, as they are, in a stream-of-posts context which is impermanent by design and affords no immediate action for podcast listening/subscription) are lost on many who *would have* taken a listen, but weren't in a position to immediately:
+Speaking for myself: I *almost* always tweet a link to the feed and/or episode URL of a show which I find interesting, entertaining, or useful.  But I wouldn't be surprised if those recommendation tweets (given, as they are, in a stream-of-posts context which is impermanent by design and affords no immediate action for podcast listening or subscription) are lost on many who *would have* taken a listen, but weren't in a position to immediately:
 
 1. Stop what they were doing
 2. Open their [podcatcher](http://en.wikipedia.org/wiki/List_of_podcatchers)
