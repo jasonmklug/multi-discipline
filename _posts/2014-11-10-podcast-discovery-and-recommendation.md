@@ -5,11 +5,11 @@ published: true
 category: problems
 ---
 
-If, like me, you’re widely curious and always thirsty for new ideas, you *ought to* consider the rise of podcasting as a medium to be nothing short of revolutionary.  For someone who carries an intense interest in a few subjects — and a passing interest in many, many more — the *right kind* of podcast can offer the caliber of insight that used to require tuition and a lecture hall (and often does so through hosts and guests with engaging personalities and an infectious passion for the subject matter).
+If you, like me, are widely curious and always thirsty for new ideas, you *ought to* consider the rise of podcasting as a medium to be nothing short of revolutionary.  For someone who carries an intense interest in a few subjects — and a passing interest in many, many more — the *right kind* of podcast can offer the caliber of insight that used to require tuition and a lecture hall (and often does so through hosts and guests with engaging personalities and an infectious passion for the subject matter).
 
 I’ve posted [the "Maker" subset of my podcasts subscriptions](/podcasts).  That grid shows about 1/3 the *total* list of feeds through which [my podcatcher of choice](https://overcast.fm) iterates every time it checks for new episodes (most of these podcasts post on a weekly schedule).
 
-If it weren’t for the fact that writing code (or prose) requires focus from the same parts of the brain which process verbal language, I’d be actively keeping up with even more.  As such, my podcast consumption is limited, quite literally, by the number of waking non-working hours in a day.
+If it weren’t for the fact that writing code (or prose) requires focus from the same parts of the brain which process verbal language, I’d be actively keeping up with even more.  As such, my podcast consumption is limited —  quite literally — by the number of waking non-working hours in a day.
 
 > *"So, ladies and gentleman, if I say I'm an podcast fan, you'll agree."* -Me
 
@@ -19,7 +19,7 @@ There is a vast (and growing) landscape of podcasts available to any listener wi
 
 Or, approached from the "recommender" side: when one listener finds a show or episode they really like, they have limited outlets through which they can recommend it to other would-be listeners.
 
-Speaking for myself: I *almost* always tweet a link to the feed and/or episode URL of a show which I find interesting, entertaining, or useful.  But I wouldn't be surprised if those recommendation tweets (given, as they are, in a stream-of-posts context which is impermanent by design and affords no immediate action for podcast listening/subscription) are lost on many who *would have* taken a listen, but weren't in a position to:
+Speaking for myself: I *almost* always tweet a link to the feed and/or episode URL of a show which I find interesting, entertaining, or useful.  But I wouldn't be surprised if those recommendation tweets (given, as they are, in a stream-of-posts context which is impermanent by design and affords no immediate action for podcast listening/subscription) are lost on many who *would have* taken a listen, but weren't in a position to immediately:
 
 1. Stop what they were doing
 2. Open their [podcatcher](http://en.wikipedia.org/wiki/List_of_podcatchers)
@@ -39,9 +39,9 @@ But, like the retweet — in order to enable that behavior, you first need a sys
 * As a user, I “follow” other users whose podcast recommendations I think I’d find interesting (probably people whose interests I already know mirror my own, thanks to their presence on other social sites/services).
 * Individual episodes which have been recommended by users who I follow will be added to my “followed” feed.
 * Like retweets, even if more than one user who I follow recommends an episode, that episode is only added once to my “followed” feed.
-* When I want to expand my podcast horizons through a set of socially curated episode recommendations, I simply open my “followed” feed (which has all of the recommended individual episodes compiled into a single feed) in my podcatcher, and play an episode.
+* When I want to expand my podcast horizons through a set of socially curated episode recommendations, I should be able to simply open my “followed” feed (which has all of the recommended individual episodes compiled into a single feed) in my podcatcher, and play an episode.
 * The rest of my subscriptions in that podcatcher should not be affected.
-* If I find an episode interesting enough that I want to subscribe to the podcast directly, there would be a button for doing just that on the individual episode’s “now playing” or “info” view.
+* If I find an episode interesting enough that I want to subscribe to the podcast directly, there should be a button for doing just that on the individual episode’s “now playing” or “info” view.
 * If someone I follow adds a recommendation for a podcast to which I’m already subscribed, that episode should not appear in my “followed” feed.
 
 ## The Tools
