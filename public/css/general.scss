@@ -481,7 +481,7 @@ div.page_content {
 .author_card {
   box-sizing: border-box;
   overflow: auto;
-  width: 60%;
+  width: 75%;
   margin: 2em 0 0 0;
   padding: .5em 0 .5em .5em;
   background-color: $subtle_light;
@@ -633,7 +633,7 @@ ul.post_list {
   }
   
   .author_card {
-    width: 55%;
+    width: 60%;
     margin: 2em 0 0 0;
     padding: .5em;
     img.avatar {
