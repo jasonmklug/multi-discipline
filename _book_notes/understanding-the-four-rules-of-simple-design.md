@@ -6,7 +6,7 @@ producer_name_array: ['Corey Haines']
 amazon_product_id:
 non_amazon_purchase_url:  https://leanpub.com/4rulesofsimpledesign
 non_amazon_retailer_name: Leanpub
-product_image_path: /images/product/understanding_the_4_rules_of_simple_design.jpg
+product_image_filename: understanding_the_4_rules_of_simple_design.jpg
 ---
 
 ### Summary:

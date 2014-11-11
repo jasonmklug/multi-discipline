@@ -24,13 +24,20 @@ collections:
   book_notes:
     output: true
     permalink: /book_notes/:path/
-
-# Custom vars
-github:
-  repo:           https://github.com/jasonmklug/multi-discipline
+  
+# Default YAML Values
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      author: jasonmklug
   
 # Amazon S3
-asset_hostname:       multi-discipline.s3.amazonaws.com
+asset_hostname:         multi-discipline.s3.amazonaws.com
+path_to_author_images:  /images/author/
+path_to_product_images: /images/product/
+path_to_post_images:    /images/post/
 
 # Amazon Affiliate Program
 amazon_affiliate_tag:   multidiscipline-20

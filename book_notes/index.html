@@ -21,14 +21,14 @@ permalink: /book_notes/
   {% for book in site.book_notes %}
     {% if book.published == true %}
       <div class="post">
-        <h1 class="post-title">
+        <h1 class="post_title">
           <a href="{{ book.url }}">
             {{ book.product_name }}
           </a>
         </h1>
-        <span class="post-metadata">By: {{ book.producer_name_array | array_to_sentence_string }}</span>
+        <span class="post_metadata">By: {{ book.producer_name_array | array_to_sentence_string }}</span>
         <a href="{{ book.url }}" class="image_link">
-          <img src="http://{{ site.asset_hostname }}{{ book.product_image_path }}" class="product_image bordered">
+          <img src="http://{{ site.asset_hostname }}{{ site.path_to_product_images }}{{ book.product_image_filename }}" class="product_image bordered">
         </a>
         
         {% comment %} Trim content to first instance of 'excerpt_separator' (defined in _config.yml) {% endcomment %}
