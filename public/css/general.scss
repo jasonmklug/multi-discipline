@@ -481,9 +481,9 @@ div.page_content {
 .author_card {
   box-sizing: border-box;
   overflow: auto;
-  width: 50%;
+  width: 60%;
   margin: 2em 0 0 0;
-  padding: .5em;
+  padding: .5em 0 .5em .5em;
   background-color: $subtle_light;
   a {
     color: $base;
@@ -491,16 +491,16 @@ div.page_content {
   img.avatar {
     float: left;
     box-sizing: border-box;
-    width: 4em;
-    margin: .25em;
-    border-radius: 2em;
+    width: 3.2em;
+    margin: .15em;
+    border-radius: 1.6em;
   }
   .author_metadata {
     display: inline-block;
-    margin-left: .5em;
+    margin-left: .3em;
     .name {
-      font-size: 1.5em;
-      line-height: 1.5em;
+      font-size: 1.3em;
+      line-height: 1.4em;
       font-weight: 700;
       margin: 0 0 0 0;
       color: $dark;
@@ -510,8 +510,8 @@ div.page_content {
       margin: 0;
       img.icon {
         float: left;
-        height: 1.4em;
-        margin: .3em .7em 0 0;
+        height: 1.2em;
+        margin: .1em .5em 0 0;
       }
     }
   }
@@ -632,6 +632,31 @@ ul.post_list {
     max-width: 240px;
   }
   
+  .author_card {
+    width: 55%;
+    margin: 2em 0 0 0;
+    padding: .5em;
+    img.avatar {
+      width: 3.5em;
+      margin: .2em;
+      border-radius: 1.75em;
+    }
+    .author_metadata {
+      margin-left: .4em;
+      .name {
+        font-size: 1.4em;
+        line-height: 1.5em;
+      }
+      .accounts {
+        img.icon {
+          height: 1.3em;
+          margin: .2em .5em 0 0;
+        }
+      }
+    }
+  
+  }
+  
   ul.podcasts {
     li.podcast {
       margin: 8px;
@@ -664,6 +689,31 @@ ul.post_list {
         line-height: 1.2em;
       }
     }
+  }
+  
+  .author_card {
+    width: 50%;
+    margin: 2em 0 0 0;
+    padding: .5em;
+    img.avatar {
+      width: 4em;
+      margin: .25em;
+      border-radius: 2em;
+    }
+    .author_metadata {
+      margin-left: .5em;
+      .name {
+        font-size: 1.5em;
+        line-height: 1.5em;
+      }
+      .accounts {
+        img.icon {
+          height: 1.4em;
+          margin: .3em .7em 0 0;
+        }
+      }
+    }
+  
   }
   
   ul.podcasts {
