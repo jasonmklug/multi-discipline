@@ -22,7 +22,7 @@ I'm building out my own little corner of the web where I control the presentatio
 ## The Tools
 
 + **Static Site Generator** ([Jekyll](http://jekyllrb.com/))
-+ **VPS** ([Digital Ocean](https://www.digitalocean.com/?refcode=896afa34ae98))
++ **VPS** ([DigitalOcean](https://www.digitalocean.com/?refcode=896afa34ae98))
 + **Web Server** ([nginx](http://nginx.org/))
 + **Programming Language** ([Ruby](https://www.ruby-lang.org/))
 + **Templating Language** ([Liquid](http://liquidmarkup.org/))
