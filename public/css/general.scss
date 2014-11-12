@@ -89,7 +89,7 @@ a.buttonified, .submit.buttonified {
 	color: #fff;
 	background-color: $accent;
 	@include linear_gradient( lighten($accent, 5%), darken($accent, 5%) );
-	border-radius: 9px;
+	border-radius: 6px;
 	border: 2px solid #fff;
 	//box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
 	&:hover {
@@ -394,8 +394,20 @@ tbody tr:nth-child(odd) th {
 .footer {
   background-color: $base;
   margin-top: 3em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
+  ul.nav_links {
+    float: none;
+    width: 96%;
+    margin: .5em auto 1.5em auto;
+    text-align: center;
+    li.nav_link {
+      display: inline;
+      margin: 0 .5em;
+    }
+  }
   form#tinyletter {
+    width: 96%;
+    margin: 0 auto;
     h2 {
       margin: .2em 0 .3em 0;
     }
@@ -407,7 +419,7 @@ tbody tr:nth-child(odd) th {
     }
     input[type=text], input[type=email] {
       width: 96%;
-      margin: 0 0 .3em 0;
+      margin: .1em 0 .3em 0;
       padding: .3em;
       font-size: .9em;
       text-align: center;
@@ -603,8 +615,26 @@ ul.post_list {
     }
   }
   
+  .masthead ul.nav_links, .footer ul.nav_links {
+    li.nav_link {
+      padding: .4rem;
+      font-size: 1.2rem;
+      line-height: 1.0rem;
+    }
+  }
+  
   .footer {
+    ul.nav_links {
+      float: right;
+      width: 30%;
+      li.nav_link {
+        display: block;
+        text-align: right;
+      }
+    }
     form#tinyletter {
+      float: left;
+      margin-top: .6em;
       h2 {
         font-size: 1.4em;
       }
@@ -617,14 +647,6 @@ ul.post_list {
         font-size: 1.1em;
         line-height: 1.1em;
       }
-    }
-  }
-  
-  .masthead ul.nav_links, .footer ul.nav_links {
-    li.nav_link {
-      padding: .4rem;
-      font-size: 1.2rem;
-      line-height: 1.0rem;
     }
   }
   
