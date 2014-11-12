@@ -402,7 +402,10 @@ tbody tr:nth-child(odd) th {
     text-align: center;
     li.nav_link {
       display: inline;
-      margin: 0 .35em;
+      margin: 0 .6em 0 0;
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
   form#tinyletter {
@@ -629,6 +632,7 @@ ul.post_list {
       width: 30%;
       li.nav_link {
         display: block;
+        margin: 0 0 0 0;
         text-align: right;
       }
     }
