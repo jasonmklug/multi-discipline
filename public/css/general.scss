@@ -407,13 +407,12 @@ tbody tr:nth-child(odd) th {
   ul.nav_links {
     width: 110%;
     margin: .5em -5% 1em -5%;
-    background-color: #f60;
     li.nav_link {
       &:last-child {
         margin-right: 0;
       }
       a {
-        padding: .1rem;
+        padding: .3rem;
       }
     }
   }
