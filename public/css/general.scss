@@ -405,8 +405,9 @@ tbody tr:nth-child(odd) th {
   background-color: $base;
   margin-top: 3rem;
   ul.nav_links {
-    width: 100%;
-    margin: .5em auto 1em auto;
+    width: 110%;
+    margin: .5em -5% 1em -5%;
+    background-color: #f60;
     li.nav_link {
       &:last-child {
         margin-right: 0;
