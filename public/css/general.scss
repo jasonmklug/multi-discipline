@@ -394,10 +394,10 @@ tbody tr:nth-child(odd) th {
 .footer {
   background-color: $base;
   margin-top: 3em;
-  padding-bottom: 2em;
+  padding: 1.5em 0 2em 0;
   ul.nav_links {
     float: none;
-    width: 98%;
+    width: 100%;
     margin: .5em auto 1.5em auto;
     text-align: center;
     li.nav_link {
