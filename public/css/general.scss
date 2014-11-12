@@ -569,10 +569,10 @@ div.page_content {
 ul.podcasts {
   margin: 0px auto;
   padding: 0px;
-  overflow: auto;
+  text-align: center;
   list-style: none;
   li.podcast {
-    float: left;
+    display: inline-block;
     margin: 4px;
     padding: 0px;
     img.podcast_art {
@@ -699,10 +699,10 @@ ul.post_list {
   
   ul.podcasts {
     li.podcast {
-      margin: 8px;
+      margin: 4px;
       img.podcast_art {
-        width: 72px;
-        height: 72px;
+        width: 96px;
+        height: 96px;
       }
     }
   }
