@@ -5,6 +5,10 @@ hilighter:        pygments
 # Environment
 timezone:         America/Chicago
 
+# Build Process
+destination:  public
+exclude:      ['README.md', 'public']
+
 # Setup
 title:            Multi-Discipline
 tagline:          "The Problems and Solutions of a Generalist Maker"

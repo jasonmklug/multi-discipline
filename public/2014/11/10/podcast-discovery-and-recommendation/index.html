@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Multi-Discipline: Podcast Discovery & Recommendation
+    
+  </title>
+  
+  <!-- Canonical Source for Page Content -->
+  <link rel="canonical" href="http://multi-discipline.com/2014/11/10/podcast-discovery-and-recommendation/">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/styles/general.css">
+  <link rel="stylesheet" href="/assets/styles/syntax.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  
+  <!-- Typekit Integration -->
+  <script src="//use.typekit.net/plx3cqg.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  
+  <!-- Google Analytics Tracking Code -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-55954451-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+
+
+  <body>
+
+    <div class="masthead">
+      <div class="container">
+        <h2 class="masthead_title">
+          <a href="/" title="Home">Multi-Discipline</a>
+          <span class="subhead">The Problems and Solutions of a Generalist Maker</span>
+        </h2>
+        <ul class="nav_links">
+          <li class="nav_link">
+            <a href="/book_notes">Book Notes</a>
+          </li>
+          <li class="nav_link">
+            <a href="/podcasts">Podcasts</a>
+          </li>
+          <li class="nav_link">
+            <a href="/archive">Archive</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container content">
+      
+
+      <div class="page_content">
+
+        <div class="post">
+  <h1 class="post_title">Podcast Discovery & Recommendation</h1>
+  <span class="post_metadata">2014-11-10</span>
+
+  <p>If you, like me, are widely curious and always trying to expose yourself to new ideas, you <em>ought to</em> consider the rise of podcasting as a medium to be nothing short of revolutionary.  For someone who carries an intense interest in a few subjects — and a passing interest in many, many more — the <em>right kind</em> of podcast can offer the caliber of insight that used to require tuition and a lecture hall (and often does so through hosts and guests with engaging personalities and an infectious passion for the subject matter).</p>
+
+<p>I’ve posted <a href="/podcasts">the &quot;Maker&quot; subset of my podcasts subscriptions</a>.  That grid shows about 1/3 the <em>total</em> list of feeds through which <a href="https://overcast.fm">my podcatcher of choice</a> iterates every time it checks for new episodes (most of these podcasts post on a weekly schedule).</p>
+
+<p>If it weren’t for the fact that writing code (or prose) requires focus from the same parts of the brain which process verbal language, I’d be actively keeping up with even more.  As such, my podcast consumption is limited —  quite literally — by the number of waking non-working hours in a day.</p>
+
+<blockquote>
+<p><em>&quot;So, ladies and gentleman, if I say I&#39;m an podcast fan, you&#39;ll agree.&quot;</em> -Me</p>
+</blockquote>
+
+<h2>The Problem</h2>
+
+<p>There is a vast (and growing) landscape of podcasts available to any listener with the time and inclination to seek them out.  Most listeners, however, are <em>not</em> inclined to spend time perusing podcast directories for new must-listen shows; they have a few which suit their daily commute, and that’s as far into the landscape as they need to explore. (<a href="http://knowyourmeme.com/memes/filthy-casual">Filthy casuals</a>.)</p>
+
+<p>Or, approached from the &quot;recommender&quot; side: when one listener finds a show or episode they really like, they have limited outlets through which they can recommend it to other would-be listeners.</p>
+
+<p>Speaking for myself: I <em>almost</em> always tweet a link to the feed and/or episode URL of a show which I find interesting, entertaining, or useful.  But I wouldn&#39;t be surprised if those recommendation tweets (given, as they are, in a stream-of-posts context which is impermanent by design and affords no immediate action for podcast listening or subscription) are lost on many who <em>would have</em> taken a listen, but weren&#39;t in a position to immediately:</p>
+
+<ol>
+<li>Stop what they were doing</li>
+<li>Open their <a href="http://en.wikipedia.org/wiki/List_of_podcatchers">podcatcher</a></li>
+<li>Find the show (or, if the podcatcher has no directory feature, copy/paste the show’s feed URL)</li>
+<li>Subscribe to the show (or download the single episode)</li>
+</ol>
+
+<h2>The (Proposed) Solution</h2>
+
+<p>A service which allows users to recommend single episodes of their favorite podcasts, and to “follow” the episode recommendations of other users, which the system compiles into a single appropriately formatted RSS/XML personal “followed” feed for each user.</p>
+
+<p>As far as I can see, the best-fitting model already in existence is the humble <a href="https://support.twitter.com/articles/77606-faqs-about-retweets-rt">retweet</a>.</p>
+
+<p>But, like the retweet — in order to enable that behavior, you first need a system to handle the basic re-share-able units of content (in our case, podcast episodes).</p>
+
+<h3>Desired Behavior:</h3>
+
+<ul>
+<li>As a user, I “follow” other users whose podcast recommendations I think I’d find interesting (probably people whose interests I already know mirror my own, thanks to their presence on other social sites/services).</li>
+<li>Individual episodes which have been recommended by users who I follow will be added to my “followed” feed.</li>
+<li>Like retweets, even if more than one user who I follow recommends an episode, that episode is only added once to my “followed” feed.</li>
+<li>When I want to expand my podcast horizons through a set of socially curated episode recommendations, I should be able to simply open my “followed” feed (which has all of the recommended individual episodes compiled into a single feed) in my podcatcher, and play an episode.</li>
+<li>The rest of my subscriptions in that podcatcher should not be affected.</li>
+<li>If I find an episode interesting enough that I want to subscribe to the podcast directly, there should be a button for doing just that on the individual episode’s “now playing” or “info” view.</li>
+<li>If someone I follow adds a recommendation for a podcast to which I’m already subscribed, that episode should not appear in my “followed” feed.</li>
+</ul>
+
+<h2>The Tools</h2>
+
+<ul>
+<li><strong>Web Site</strong> (acts as hub for creating an account, finding users to follow, recommending podcast episodes, etc.)</li>
+<li><strong>API for Web Service</strong> (which the site and developers of podcatchers can use to authenticate service users, pass along episode [un]recommendations, add user’s “followed” feed as subscription, etc.)</li>
+<li><strong>Cooperation of Developers</strong> (much in the way that third-party apps have integrated with useful &quot;personal collection&quot; services like <a href="https://pinboard.in">Pinboard</a> and <a href="https://www.instapaper.com/">Instapaper</a>)</li>
+</ul>
+
+<h2>The (Proposed) Process</h2>
+
+<p>This remains to be seen, but I believe the first step would be to build an MVP of the website and service.  Obviously, it wouldn’t be <em>as</em> feature-rich on its own as it could eventually be once third-party podcatcher developers build integrations, but it would be a useful start for the steadfast core of Podcast Superfans&trade; who want to push and collect episode recommendations right away. (<a href="https://www.youtube.com/watch?v=lKie-vgUGdI">There are dozens of us... DOZENS!</a>)</p>
+
+<p>Until third-party developers adopted it, service users could simply copy/paste the URL of their personal “followed” feed (<a href="http://www.kungfugrippe.com/post/20021002957/like-an-animal">LIKE AN ANIMAL</a>) to subscribe in any podcatcher, just like any other podcast feed.  They could also manually add/remove podcasts to/from an “I’m already subscribed” list on the system, to prevent recommended episodes of podcasts to which they’re already subscribed appearing in their “followed” feed.</p>
+
+<p>These temporary workarounds would be tedious, but not sufficiently frequent to make use of the service into a chore.</p>
+
+<h2>The (Expected) Outcome</h2>
+
+<p>Since sharing recommendations is something done without any <em>real</em> expectation of return or interaction, it <em>shouldn’t</em> matter, at the outset, whether anyone is actually following you (meaning the inherent chicken-and-egg problem of social-dependent services <em>should</em> be avoidable).</p>
+
+<p>And since podcasts, by their nature, require a time commitment to consume, a single-digit queue of recommendations is enough to keep a user busy for hours (unlike, say, Twitter — where a user must follow <em>at least</em> a few dozen other users to be ensured consistent fresh new content).  This means a user could conceivably fill their available podcast listening time by following just two or three recommenders.</p>
+
+<p>Given the right circumstances (and eventual third-party developer integration) a service such as this could be expected to keep podcast listeners continually returning to the recommendation well for another quality dip of socially filtered podcast episodes.</p>
+
+<p>It would be interesting to see how a recommendation machine constantly churning out high-quality content fares when it bumps up against the inherent limit to a human’s available daily (weekly, monthly) listening hours, and how that ultimately affects the decision users make about what to consume in their preciously limited time.</p>
+
+  
+  
+  <div class="author_card">
+  <img class="avatar" src="http://multi-discipline.s3.amazonaws.com/images/author/jasonmklug.jpg">
+  <div class="author_metadata">
+    <span class="name">
+      Jason M. Klug
+    </span>
+    <div class="accounts">
+      <a href="http://twitter.com/jasonmklug" target="_blank">
+        <img class="icon" src="/assets/images/icon_twitter.svg" alt="Link to author's Twitter account.">
+      </a>
+      <a href="https://github.com/jasonmklug" target="_blank">
+        <img class="icon" src="/assets/images/icon_github.svg" alt="Link to author's GitHub account.">
+      </a>
+      <a href="mailto:jason@multi-discipline.com">
+        <img class="icon" src="/assets/images/icon_email.svg" alt="Link to author's email address.">
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+      
+      </div>
+      
+    </div>
+
+    <div class="footer">
+  <div class="container">
+    <ul class="nav_links">
+      <li class="nav_link">
+        <a href="/book_notes">Book Notes</a>
+      </li>
+      <li class="nav_link">
+        <a href="/podcasts">Podcasts</a>
+      </li>
+      <li class="nav_link">
+        <a href="/archive">Archive</a>
+      </li>
+      <li class="nav_link">
+        <a href="/about">About</a>
+      </li>
+    </ul>
+    
+    <div class="form_wrapper">
+  <!-- TinyLetter Subscribe Form -->
+  <form id="tinyletter" action="https://tinyletter.com/multi-discipline" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/multi-discipline', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <h2>
+      Multi-Discipline<br>Email Dispatch
+    </h2>
+    <label for="tlemail">Email Address</label><br>
+    <input type="email" name="email" id="tlemail" /><br>
+    <input type="hidden" value="1" name="embed"/>
+    <input type="submit" class="submit buttonified" value="Subscribe" />
+    <p class="subtext">
+      <a href="https://tinyletter.com/multi-discipline" target="_blank">
+        Weekly links to interesting<br>problems &amp; solutions.
+      </a>
+    </p>
+  </form>
+</div>
+    
+  </div>
+</div>
+
+  </body>
+</html>

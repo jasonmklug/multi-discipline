@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Multi-Discipline: The Making of Multi-Discipline
+    
+  </title>
+  
+  <!-- Canonical Source for Page Content -->
+  <link rel="canonical" href="http://multi-discipline.com/2014/10/16/the-making-of-multi-discipline/">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/styles/general.css">
+  <link rel="stylesheet" href="/assets/styles/syntax.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  
+  <!-- Typekit Integration -->
+  <script src="//use.typekit.net/plx3cqg.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  
+  <!-- Google Analytics Tracking Code -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-55954451-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+
+
+  <body>
+
+    <div class="masthead">
+      <div class="container">
+        <h2 class="masthead_title">
+          <a href="/" title="Home">Multi-Discipline</a>
+          <span class="subhead">The Problems and Solutions of a Generalist Maker</span>
+        </h2>
+        <ul class="nav_links">
+          <li class="nav_link">
+            <a href="/book_notes">Book Notes</a>
+          </li>
+          <li class="nav_link">
+            <a href="/podcasts">Podcasts</a>
+          </li>
+          <li class="nav_link">
+            <a href="/archive">Archive</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container content">
+      
+
+      <div class="page_content">
+
+        <div class="post">
+  <h1 class="post_title">The Making of Multi-Discipline</h1>
+  <span class="post_metadata">2014-10-16</span>
+
+  <p>Despite having worked on and around the web since 2006, it&#39;s been a while since I&#39;ve had my own personal space which I controlled soup to nuts.</p>
+
+<p>Twitter has satisfied <em>most</em> of my <em>practical</em> publishing needs (low friction, low maintenance, publicly accessible, able to be individually hyperlinked), but the notion that I don&#39;t &quot;own&quot; my tweets is aggravating to my future-proofing sensibilities.</p>
+
+<p>While I do have systems in place to capture, for example, my tweets (first via an iPhone app called <a href="http://www.momentoapp.com/%60%60">Momento</a>; more recently by running a custom install of Brett Terpstra&#39;s <a href="http://brettterpstra.com/projects/slogger/">Slogger</a> to add my tweets to a personal <a href="http://dayoneapp.com/">Day One</a> journal), it&#39;s not the same as having posts under my complete control.</p>
+
+<h2>The Problem</h2>
+
+<p>The fate of my posts to Twitter, Tumblr, or any other advertising-supported <em>&quot;post here and we&#39;ll probably keep your stuff around for a few years&quot;</em> platform is, ultimately, out of my hands.  But I <em>would</em> like most (if not all) of my day-to-day public writing to have the best possible chance of being around for my kids to discover when they&#39;re older.</p>
+
+<h2>The Solution</h2>
+
+<p>I&#39;m building out my own little corner of the web where I control the presentation, availability, and ultimate fate of my content, and which I can expand to include more forms of media (long-form posts, image galleries, video, audio, etc.) as I find uses for them.</p>
+
+<h2>The Tools</h2>
+
+<ul>
+<li><strong>Static Site Generator</strong> (<a href="http://jekyllrb.com/">Jekyll</a>)</li>
+<li><strong>VPS</strong> (<a href="https://www.digitalocean.com/?refcode=896afa34ae98">DigitalOcean</a>)</li>
+<li><strong>Web Server</strong> (<a href="http://nginx.org/">nginx</a>)</li>
+<li><strong>Programming Language</strong> (<a href="https://www.ruby-lang.org/">Ruby</a>)</li>
+<li><strong>Templating Language</strong> (<a href="http://liquidmarkup.org/">Liquid</a>)</li>
+<li><strong>Source Control</strong> (<a href="http://git-scm.com/">Git</a>)</li>
+</ul>
+
+<h2>The Process</h2>
+
+<h3>Tinkering With Jekyll Locally</h3>
+
+<p>Since I had never before used Jekyll, I limited myself to installing and running it locally on my development machine (a.k.a. &quot;dev machine&quot;, a.k.a. &quot;laptop&quot;) for a few days.  This gave me an opportunity to tinker with it (tweak a template, find the limits/hackability of the posting system, determine what else I could build into this) without investing a bunch of time spinning up a VPS.  Jekyll, I soon learned, could even be deployed to GitHub Pages with a few setup conformities, so that became my plan.</p>
+
+<p>After tinkering with Jekyll, it was clear that while this was a solid piece of software out of the box, the <em>real</em> value it offered was its customizability and extensibility (given familiarity with Ruby and Liquid).  I work with Ruby professionally, so that was a good fit; and despite this being my first experiment with Liquid, it&#39;s a sufficiently intuitive and documented system that I picked it up quickly.</p>
+
+<p>The Jekyll features I wanted to build, though, required that I change my deployment plan from <a href="https://pages.github.com/">GitHub Pages</a> (which offers a free and quick way to run a stock Jekyll site) to deploying via Git to my own VPS.</p>
+
+<h3>Setting Up My VPS</h3>
+
+<p>Configuring the DigitalOcean Droplet (their term for a VPS &quot;unit&quot;) was straightforward; DigitalOcean&#39;s own system had me up and running with a virtual Linux (Ubuntu) &quot;box&quot; in no time, and I had the necessary user accounts, SSH Keys, etc. set up shortly thereafter (aided by <a href="https://www.digitalocean.com/community/?refcode=896afa34ae98">DigitalOcean&#39;s excellent documentation &amp; tutorials</a>).</p>
+
+<p><strong>Context:</strong> <em>Part of setting up this droplet involved directing web traffic from my domain name, multi-discipline.com, to my droplet&#39;s IP address.  In addition to being necessary for general web traffic, having that DNS <code>A Record</code> in place allowed me to use that hostname for other services (<code>ssh</code>, <code>git remote</code>, etc.) and have a single point of update should I move the site to a different server.</em></p>
+
+<p>Next up, I installed Ruby and Jekyll on the VPS, installed Git (<code>git-core</code>, in my case), and created the Git repository at which I&#39;d be receiving my entire, un-compiled Jekyll site (pushed via Git from the repository on my laptop, where I&#39;m building the site and writing posts).</p>
+
+<p><strong>Context:</strong> <em>Jekyll is a static site generator, meaning that the &quot;work&quot; of building each and every page in the site (setting the permalink address of each page; including header, footer and other page layout partials; replacing variables with the appropriate text, etc.) is done <strong>once</strong> whenever I push a change to the Git repository, instead of every time someone on the web requests a page.</em></p>
+
+<p>The driving force of all that server-side processing is a Git <code>post-receive hook</code> on the site&#39;s repository (a.k.a. &quot;repo&quot;) on my VPS.  You can think of this as a shell script which fires when Git receives a change to that repo.  In basic terms (neglecting a few technical steps), that script:</p>
+
+<ol>
+<li>Tells Jekyll to turn my site&#39;s un-compiled content files, layout partials, and assets into a functioning and inter-linked set of web pages (in other words, makes the disparate parts into a proper web site).</li>
+<li>Clones the generated <code>/site</code> folder to a particular directory on the VPS (where, in a future step, we&#39;ll tell the web server to look for the page files as they&#39;re requested).</li>
+</ol>
+
+<h3>Setting Up nginx As My Web Server</h3>
+
+<p>While I&#39;ve done some basic system administration work in the past, I&#39;ve never actually installed and configured my own web server (nginx, in this case) on a clean system.</p>
+
+<p>nginx does the work of listening for requests which come in, and serving the appropriate files from my VPS back to the web browser which requested them.</p>
+
+<p>As such, I needed to let nginx know:</p>
+
+<ul>
+<li>The port on which it should be listening for web requests (standard is <code>80</code>)</li>
+<li>The IP address from which it is serving (the IP address of my DigitalOcean Droplet)</li>
+<li>Which site(s) I&#39;m serving, and which host name(s) I&#39;m using for them (<code>multi-discipline.com www.multi-discipline.com</code>)</li>
+<li>Where (on the VPS) it should look for each site&#39;s &quot;root&quot; directory (eg. <code>/var/www</code>)</li>
+<li>Which file to use as the site&#39;s (or any subdirectory&#39;s) index (typically <code>index.html</code>)</li>
+<li>Which pages to use for given errors (eg. <code>404 /404.html</code>)</li>
+</ul>
+
+<p>I also needed to be sure the site configuration I did in <code>/sites-available/multi-discipline.com</code> was again expressed in that site&#39;s file in the <code>/sites-enabled</code> directory.  Since my setup is pretty straightforward (i.e. any site I have &quot;available&quot; should also be &quot;enabled&quot;), I symlinked the site file in <code>/sites-available</code> with its counterpart in <code>/sites-enabled</code>, meaning any future change to one of those files is carried through to the other.</p>
+
+<h3>Temporary Hangups</h3>
+
+<p>At this point, I ran into some system-permissions-related problems.</p>
+
+<p>Firstoff, I&#39;d forgotten to make the <code>post-receive hook</code> file executable (i.e. &quot;able to be run&quot;), so nothing was happening when my Git repository detected changes.  I fixed this with a <code>chmod</code>.</p>
+
+<p>Secondly, the <code>post-receive hook</code> script couldn&#39;t write in the destination folder (or, rather, a script <em>run by my user account</em> couldn&#39;t, but needed to, since the <code>git remote</code> named <code>droplet</code> set up on my laptop to push code to the VPS did so using my VPS user account&#39;s SSH Key), so I made my user account a member of the user group which has control over <code>/var/www</code> and its contents.  In my case (and, I believe, by default), this group was <code>www-data</code>.</p>
+
+<p><strong>Context:</strong> <em>For security and peace-of-mind reasons, I set up a user account on my VPS which I would use for day-to-day system administration, but which <strong>was not</strong> the system&#39;s default <code>root</code> account, since <code>root</code> is basically god as far as the system is concerned, and can do many harmful things if accidentally or maliciously misused.</em></p>
+
+<h2>The Outcome</h2>
+
+<p>The first time I successfully ran <code>git push droplet master</code> on my development machine and found the properly compiled site being served at <a href="http://multi-discipline.com">http://multi-discipline.com</a>, I threw my arms up in victory.  Success!</p>
+
+<p>From this point on, I have the ability (if not the time) to post lengthy screeds at will and trust they’ll be around until the day I no longer want them to be (or until my DigitalOcean payment method fails — whichever comes first).</p>
+
+  
+  
+  <div class="author_card">
+  <img class="avatar" src="http://multi-discipline.s3.amazonaws.com/images/author/jasonmklug.jpg">
+  <div class="author_metadata">
+    <span class="name">
+      Jason M. Klug
+    </span>
+    <div class="accounts">
+      <a href="http://twitter.com/jasonmklug" target="_blank">
+        <img class="icon" src="/assets/images/icon_twitter.svg" alt="Link to author's Twitter account.">
+      </a>
+      <a href="https://github.com/jasonmklug" target="_blank">
+        <img class="icon" src="/assets/images/icon_github.svg" alt="Link to author's GitHub account.">
+      </a>
+      <a href="mailto:jason@multi-discipline.com">
+        <img class="icon" src="/assets/images/icon_email.svg" alt="Link to author's email address.">
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+      
+      </div>
+      
+    </div>
+
+    <div class="footer">
+  <div class="container">
+    <ul class="nav_links">
+      <li class="nav_link">
+        <a href="/book_notes">Book Notes</a>
+      </li>
+      <li class="nav_link">
+        <a href="/podcasts">Podcasts</a>
+      </li>
+      <li class="nav_link">
+        <a href="/archive">Archive</a>
+      </li>
+      <li class="nav_link">
+        <a href="/about">About</a>
+      </li>
+    </ul>
+    
+    <div class="form_wrapper">
+  <!-- TinyLetter Subscribe Form -->
+  <form id="tinyletter" action="https://tinyletter.com/multi-discipline" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/multi-discipline', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <h2>
+      Multi-Discipline<br>Email Dispatch
+    </h2>
+    <label for="tlemail">Email Address</label><br>
+    <input type="email" name="email" id="tlemail" /><br>
+    <input type="hidden" value="1" name="embed"/>
+    <input type="submit" class="submit buttonified" value="Subscribe" />
+    <p class="subtext">
+      <a href="https://tinyletter.com/multi-discipline" target="_blank">
+        Weekly links to interesting<br>problems &amp; solutions.
+      </a>
+    </p>
+  </form>
+</div>
+    
+  </div>
+</div>
+
+  </body>
+</html>
