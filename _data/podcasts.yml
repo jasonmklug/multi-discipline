@@ -147,3 +147,9 @@
   site_url: http://www.merlinmann.com/roderick/
   rss_feed_url: http://feeds.feedburner.com/RoderickOnTheLine
   artwork_image: http://dl.dropbox.com/u/3423/i/roderick%20on%20the%20line%20sq.jpg
+  
+- name: "Ruby Rogues"
+  sort_friendly_name: "Ruby Rogues"
+  site_url: http://devchat.tv/ruby-rogues/
+  rss_feed_url: http://feeds.feedwrench.com/RubyRogues.rss
+  artwork_image: https://admin.devchat.tv/uploads/show/cover_art/1/ruby-rogues-thumb.jpg
