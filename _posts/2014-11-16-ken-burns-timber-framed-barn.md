@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Timber-Framed Philosophy"
-published: true
+published: false
 category: craftsmanship
 ---
 
