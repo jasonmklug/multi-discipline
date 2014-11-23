@@ -7,7 +7,7 @@ category: problems
 
 If you, like me, are widely curious and always trying to expose yourself to new ideas, you *ought to* consider the rise of podcasting as a medium to be nothing short of revolutionary.  For someone who carries an intense interest in a few subjects — and a passing interest in many, many more — the *right kind* of podcast can offer the caliber of insight that used to require tuition and a lecture hall (and often does so through hosts and guests with engaging personalities and an infectious passion for the subject matter).
 
-I’ve posted [the "Maker" subset of my podcasts subscriptions](/podcasts).  That grid shows about 1/3 the *total* list of feeds through which [my podcatcher of choice](https://overcast.fm) iterates every time it checks for new episodes (most of these podcasts post on a weekly schedule).
+I’ve posted [the "Maker" subset of my podcasts subscriptions](http://multi-discipline.com/podcasts/).  That grid shows about 1/3 the *total* list of feeds through which [my podcatcher of choice](https://overcast.fm) iterates every time it checks for new episodes (most of these podcasts post on a weekly schedule).
 
 If it weren’t for the fact that writing code (or prose) requires focus from the same parts of the brain which process verbal language, I’d be actively keeping up with even more.  As such, my podcast consumption is limited —  quite literally — by the number of waking non-working hours in a day.
 
