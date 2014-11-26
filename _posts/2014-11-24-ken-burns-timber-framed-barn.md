@@ -14,7 +14,7 @@ _**Be sure to also watch parts [II](http://video.pbs.org/video/2365320016/) and 
 
 For anyone unfamiliar with my personal history, I used to work as a carpenter for a local home builder.  As one of only two to three (including the owner) on the crew, I was involved with nearly every stage of the homebuilding process — from rough framing (spanning floor joists and laying down subfloor, putting up walls, setting roof trusses and getting the jack rafters just right, sheathing the exterior walls and roof, building stair structures, etc.) to the more polished work of finish carpentry (putting down hardwood floors, fitting base and window moulding, hanging doors, installing stair and balcony rails, etc.).
 
-I’m fortunate (and proud) to have had the opportunity to experience that level of hands-on work with structures which will stand for decades (in contrast to the relative impermanance and perpetual iteration of web things&trade; in my current profession).
+I’m fortunate (and proud) to have had the opportunity to experience that level of hands-on work with structures which will stand for decades; it makes for a nice professional contrast with the *relative* impermanance and perpetual iteration of the Web Things&trade; I build in my current field.
 
 So when I saw Kevin O’Connel (of _This Old House_) interviewing documentary filmmaker Ken Burns and builder Tedd Benson about their approach to building an authentic-to-traditional-spirt timber-framed barn, I was instantly engaged.
 
