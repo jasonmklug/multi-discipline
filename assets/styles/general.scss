@@ -257,6 +257,11 @@ blockquote p:last-child {
   margin-bottom: 0;
 }
 
+iframe {
+  max-width: 100%;
+  max-height: auto;
+}
+
 @media (min-width: 30em) {
   blockquote {
     padding-right: 5rem;
