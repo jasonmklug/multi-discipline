@@ -11,7 +11,8 @@ I’ve posted [the "Maker" subset of my podcasts subscriptions](http://multi-dis
 
 If not for the fact that writing code (or prose) requires focus from the same part(s) of the brain which process verbal language, I’d be actively keeping up with even more.  As such, my podcast consumption is limited —  quite literally — by the number of waking non-working hours in a day.
 
-> *"So, ladies and gentleman, if I say I'm an podcast fan, you'll agree."* -Me
+> *"So, ladies and gentleman, if I say I'm an podcast fan, you'll agree."*  
+> -Me
 
 ## The Problem
 
