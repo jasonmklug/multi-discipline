@@ -9,7 +9,7 @@ If you, like me, are widely curious and always trying to expose yourself to new 
 
 I’ve posted [the "Maker" subset of my podcasts subscriptions](http://multi-discipline.com/podcasts/).  That grid shows about 1/3 the *total* list of feeds through which [my podcatcher of choice](https://overcast.fm) iterates every time it checks for new episodes (most of these podcasts post on a weekly schedule).
 
-If it weren’t for the fact that writing code (or prose) requires focus from the same parts of the brain which process verbal language, I’d be actively keeping up with even more.  As such, my podcast consumption is limited —  quite literally — by the number of waking non-working hours in a day.
+If not for the fact that writing code (or prose) requires focus from the same part(s) of the brain which process verbal language, I’d be actively keeping up with even more.  As such, my podcast consumption is limited —  quite literally — by the number of waking non-working hours in a day.
 
 > *"So, ladies and gentleman, if I say I'm an podcast fan, you'll agree."* -Me
 
@@ -52,18 +52,20 @@ But, like the retweet — in order to enable that behavior, you first need a sys
 
 ## The (Proposed) Process
 
-This remains to be seen, but I believe the first step would be to build an MVP of the website and service.  Obviously, it wouldn’t be *as* feature-rich on its own as it could eventually be once third-party podcatcher developers build integrations, but it would be a useful start for the steadfast core of Podcast Superfans&trade; who want to push and collect episode recommendations right away. ([There are dozens of us... DOZENS!](https://www.youtube.com/watch?v=lKie-vgUGdI))
+This remains to be seen, but I believe the first step would be to build an MVP of the website and service.  Obviously, it wouldn’t be *as* feature-rich on its own as it could eventually be once third-party podcatcher developers build integrations; but it would be a useful start for the steadfast core of Podcast Superfans&trade; who want to push and collect episode recommendations right away. ([There are dozens of us... DOZENS!](https://www.youtube.com/watch?v=lKie-vgUGdI))
 
 Until third-party developers adopted it, service users could simply copy/paste the URL of their personal “followed” feed ([LIKE AN ANIMAL](http://www.kungfugrippe.com/post/20021002957/like-an-animal)) to subscribe in any podcatcher, just like any other podcast feed.  They could also manually add/remove podcasts to/from an “I’m already subscribed” list on the system, to prevent recommended episodes of podcasts to which they’re already subscribed appearing in their “followed” feed.
 
-These temporary workarounds would be tedious, but not sufficiently frequent to make use of the service into a chore.
+These temporary workarounds would be *tedious*, but not sufficiently *frequent* to make use of the service into a chore.
 
 ## The (Expected) Outcome
 
-Since sharing recommendations is something done without any *real* expectation of return or interaction, it *shouldn’t* matter, at the outset, whether anyone is actually following you (meaning the inherent chicken-and-egg problem of social-dependent services *should* be avoidable).
+Since sharing recommendations is something done without any *real* expectation of return or interaction, it *shouldn’t* matter, at the outset, whether anyone is actually following you (meaning the inherent chicken-and-egg problem of social-dependent services *should* be avoidable).  As it stands now, this is something I do with zero feedback about whether my recommendations are appreciated, or even noticed (let alone acted upon).
 
 And since podcasts, by their nature, require a time commitment to consume, a single-digit queue of recommendations is enough to keep a user busy for hours (unlike, say, Twitter — where a user must follow *at least* a few dozen other users to be ensured consistent fresh new content).  This means a user could conceivably fill their available podcast listening time by following just two or three recommenders.
 
-Given the right circumstances (and eventual third-party developer integration) a service such as this could be expected to keep podcast listeners continually returning to the recommendation well for another quality dip of socially filtered podcast episodes.
+Given the right circumstances (and eventual third-party developer integration) a service such as this could be expected to keep podcast listeners continually returning to the recommendation well for another quality dip of socially filtered podcast goodness.
 
-It would be interesting to see how a recommendation machine constantly churning out high-quality content fares when it bumps up against the inherent limit to a human’s available daily (weekly, monthly) listening hours, and how that ultimately affects the decision users make about what to consume in their preciously limited time.
+It would be interesting to see how a recommendation machine constantly churning out appropriately recommended content fares when it bumps up against the inherent limit to a human’s available daily (weekly, monthly) listening hours, and how that ultimately affects the decision users make about what to consume in their preciously limited time.
+
+If it could help casual listeners to "level up" their podcast consumption (in terms of quality, if not hours), I feel like it would be a solid win for the medium.
