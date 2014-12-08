@@ -17,7 +17,7 @@
   artwork_image: http://icebox.5by5.tv/images/broadcasts/19/cover.jpg
 
 - name: "The Critical Path"
-  sort_friendly_name: "Critical Path"
+  sort_friendly_name: "Critical Path, The"
   site_url: http://5by5.tv/criticalpath
   rss_feed_url: http://feeds.5by5.tv/criticalpath
   artwork_image: http://icebox.5by5.tv/images/broadcasts/24/cover.jpg
@@ -89,7 +89,7 @@
   artwork_image: http://1.gravatar.com/blavatar/dffb6eb09ffcdc2610d174d44d18b7eb?s=96&d=http%3A%2F%2Fs2.wp.com%2Fi%2Fbuttonw-com.png
 
 - name: "The Bike Shed"
-  sort_friendly_name: "Bike Shed"
+  sort_friendly_name: "Bike Shed, The"
   site_url: http://bikeshed.fm/
   rss_feed_url: http://simplecast.fm/podcasts/282/rss
   artwork_image: http://simplecast-media.s3.amazonaws.com/podcast/image/282/1416861178-artwork.jpg
@@ -153,3 +153,9 @@
   site_url: http://devchat.tv/ruby-rogues/
   rss_feed_url: http://feeds.feedwrench.com/RubyRogues.rss
   artwork_image: https://admin.devchat.tv/uploads/show/cover_art/1/ruby-rogues-thumb.jpg
+
+- name: "The Podcast Method"
+  sort_friendly_name: "Podcast Method, The"
+  site_url: http://5by5.tv/podcastmethod
+  rss_feed_url: http://feeds.5by5.tv/podcastmethod
+  artwork_image: http://icebox.5by5.tv/images/broadcasts/78/cover.jpg
