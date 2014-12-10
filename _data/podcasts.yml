@@ -159,3 +159,9 @@
   site_url: http://5by5.tv/podcastmethod
   rss_feed_url: http://feeds.5by5.tv/podcastmethod
   artwork_image: http://icebox.5by5.tv/images/broadcasts/78/cover.jpg
+
+- name: "Reboot"
+  sort_friendly_name: "Reboot"
+  site_url: http://rebootshow.fm/
+  rss_feed_url: http://simplecast.fm/podcasts/287/rss
+  artwork_image: http://simplecast-media.s3.amazonaws.com/podcast/image/287/1416929265-artwork.jpg
