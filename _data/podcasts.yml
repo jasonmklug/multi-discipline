@@ -165,3 +165,9 @@
   site_url: http://rebootshow.fm/
   rss_feed_url: http://simplecast.fm/podcasts/287/rss
   artwork_image: http://simplecast-media.s3.amazonaws.com/podcast/image/287/1416929265-artwork.jpg
+
+- name: "Full Stack Radio"
+  sort_friendly_name: "Full Stack Radio"
+  site_url: http://fullstackradio.com/
+  rss_feed_url: http://simplecast.fm/podcasts/279/rss
+  artwork_image: http://simplecast-media.s3.amazonaws.com/podcast/image/279/1413649662-artwork.jpg
