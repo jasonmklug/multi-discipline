@@ -11,10 +11,6 @@ permalink: /podcasts/
 <ul class="podcasts">
   {% assign podcasts = site.data.podcasts | sort:'sort_friendly_name' %}
   {% for podcast in podcasts %}
-  <li class="podcast">
-    <a href="{{ podcast.site_url }}" target="_blank">
-      <img src="{{ podcast.artwork_image }}" class="podcast_art" alt="Podcast artwork for {{ podcast.name }}" />
-    </a>
-  </li>
+    {% include podcast_linked_art.html podcast=podcast %}
   {% endfor %}
 </ul>
