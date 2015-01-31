@@ -171,3 +171,10 @@
   site_url: http://fullstackradio.com/
   rss_feed_url: http://simplecast.fm/podcasts/279/rss
   artwork_image: http://simplecast-media.s3.amazonaws.com/podcast/image/279/1413649662-artwork.jpg
+
+- name: "Song Exploder"
+  sort_friendly_name: "Song Exploder"
+  site_url: http://www.maximumfun.org/shows/song-exploder
+  rss_feed_url: http://songexploder.libsyn.com/rss
+  artwork_image: http://static.libsyn.com/p/assets/8/c/d/e/8cde41fdbde21153/songexploder-3d-1400px.png
+
