@@ -92,7 +92,7 @@
   sort_friendly_name: "Bike Shed, The"
   site_url: http://bikeshed.fm/
   rss_feed_url: http://simplecast.fm/podcasts/282/rss
-  artwork_image: http://simplecast-media.s3.amazonaws.com/podcast/image/282/1416861178-artwork.jpg
+  artwork_image: http://simplecast-media.s3.amazonaws.com/podcast/image/282/1433513863-artwork.jpg
 
 - name: "Core Intuition"
   sort_friendly_name: "Core Intuition"
@@ -164,7 +164,7 @@
   sort_friendly_name: "Reboot"
   site_url: http://rebootshow.fm/
   rss_feed_url: http://simplecast.fm/podcasts/287/rss
-  artwork_image: http://simplecast-media.s3.amazonaws.com/podcast/image/287/1416929265-artwork.jpg
+  artwork_image: http://simplecast-media.s3.amazonaws.com/podcast/image/287/1433513891-artwork.jpg
 
 - name: "Full Stack Radio"
   sort_friendly_name: "Full Stack Radio"
