@@ -78,9 +78,9 @@
 
 - name: "Systematic"
   sort_friendly_name: "Systematic"
-  site_url: http://5by5.tv/systematic
-  rss_feed_url: http://feeds.5by5.tv/systematic
-  artwork_image: http://icebox.5by5.tv/images/broadcasts/39/cover.jpg
+  site_url: http://www.esn.fm/systematic/
+  rss_feed_url: http://feedpress.me/s
+  artwork_image: http://static1.squarespace.com/static/52edbc9de4b0b870f5f7ed49/t/546ffa58e4b09e5ea7df4709/1416624728939/1500w/Systematic.jpg
 
 - name: "You Are Not So Smart"
   sort_friendly_name: "You Are Not So Smart"
