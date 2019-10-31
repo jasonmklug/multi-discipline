@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 hilighter:        pygments
 
 # Environment
@@ -22,13 +22,14 @@ author:
   email:          jason@multi-discipline.com
 excerpt_separator: <!-- excerpt_separator -->
 page_title_array: ["About", "Book Notes", "Recommended Podcasts", "Post Archive"]
+plugins: [jekyll-paginate]
 
 # Collections
 collections:
   book_notes:
     output: true
     permalink: /book_notes/:path/
-  
+
 # Default YAML Values
 defaults:
   - scope:
@@ -36,7 +37,7 @@ defaults:
       type: "posts"
     values:
       author: jasonmklug
-  
+
 # Amazon S3
 asset_hostname:         multi-discipline.s3.amazonaws.com
 path_to_author_images:  /images/author/
@@ -45,3 +46,4 @@ path_to_post_images:    /images/post/
 
 # Amazon Affiliate Program
 amazon_affiliate_tag:   multidiscipline-20
+
