@@ -14,7 +14,7 @@ At a high level, I consider myself a Maker of Useful Things.  I've worked stints
 
 ## Where?
 
-I live and work in Green Bay, WI.
+I'm based in Bellingham, WA.  I do most of my work remotely.
 
 ## When?
 
