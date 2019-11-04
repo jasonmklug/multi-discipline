@@ -3,7 +3,19 @@
   site_url: http://99percentinvisible.org/
   rss_feed_url: http://feeds.99percentinvisible.org/99percentinvisible
   artwork_image: http://cdn.99percentinvisible.org/wp-content/uploads/powerpress/99invisible-logo-300.png
-      
+
+- name: "How I Built This"
+  sort_friendly_name: "How I Built This"
+  site_url: https://www.npr.org/podcasts/510313/how-i-built-this
+  rss_feed_url: https://www.npr.org/rss/podcast.php?id=510313
+  artwork_image: https://media.npr.org/assets/img/2018/08/03/npr_hibt_podcasttile_sq-98320b282169a8cea04a406530e6e7b957665b3f.jpg?s=1400
+
+- name: "Giant Robots"
+  sort_friendly_name: "Giant Robots"
+  site_url: https://giantrobots.fm/
+  rss_feed_url: https://feeds.simplecast.com/KARThxOK
+  artwork_image: https://cdn.simplecast.com/images/8503cc62-abd3-4a0a-945d-364f46f687db/beaf9f38-3e27-4cf9-a3ae-9908d2b1bda9/3000x3000/1437963534artwork.jpg?aid=rss_feed
+
 - name: "Accidental Tech Podcast"
   sort_friendly_name: "Accidental Tech Podcast"
   site_url: http://atp.fm/
