@@ -38,9 +38,11 @@ defaults:
     values:
       author: jasonmklug
 
+# Asset Groups
+path_to_author_images:  /assets/images/authors/
+
 # Amazon S3
 asset_hostname:         multi-discipline.s3.amazonaws.com
-path_to_author_images:  /images/author/
 path_to_product_images: /images/product/
 path_to_post_images:    /images/post/
 
