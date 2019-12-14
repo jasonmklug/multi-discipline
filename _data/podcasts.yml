@@ -2,131 +2,131 @@
   sort_friendly_name: "99% Invisible"
   site_url: http://99percentinvisible.org/
   rss_feed_url: http://feeds.99percentinvisible.org/99percentinvisible
-  artwork_image: http://cdn.99percentinvisible.org/wp-content/uploads/powerpress/99invisible-logo-300.png
+  artwork_image_filename: 99_percent_invisible.jpg
 
 - name: "How I Built This"
   sort_friendly_name: "How I Built This"
   site_url: https://www.npr.org/podcasts/510313/how-i-built-this
   rss_feed_url: https://www.npr.org/rss/podcast.php?id=510313
-  artwork_image: https://media.npr.org/assets/img/2018/08/03/npr_hibt_podcasttile_sq-98320b282169a8cea04a406530e6e7b957665b3f.jpg?s=1400
+  artwork_image_filename: how_i_built_this.jpg
 
 - name: "Giant Robots"
   sort_friendly_name: "Giant Robots"
   site_url: https://giantrobots.fm/
   rss_feed_url: https://feeds.simplecast.com/KARThxOK
-  artwork_image: https://cdn.simplecast.com/images/8503cc62-abd3-4a0a-945d-364f46f687db/beaf9f38-3e27-4cf9-a3ae-9908d2b1bda9/3000x3000/1437963534artwork.jpg?aid=rss_feed
+  artwork_image_filename: giant_robots.jpg
 
 - name: "Accidental Tech Podcast"
   sort_friendly_name: "Accidental Tech Podcast"
   site_url: http://atp.fm/
   rss_feed_url: http://atp.fm/episodes?format=rss
-  artwork_image: http://static.squarespace.com/static/513abd71e4b0fe58c655c105/t/52c45a37e4b0a77a5034aa84/1388599866232/1500w/Artwork.jpg
+  artwork_image_filename: atp.jpg
 
 - name: "Back to Work"
   sort_friendly_name: "Back to Work"
   site_url: http://5by5.tv/b2w/
   rss_feed_url: http://feeds.5by5.tv/b2w
-  artwork_image: http://icebox.5by5.tv/images/broadcasts/19/cover.jpg
+  artwork_image_filename: back_to_work.jpg
 
 - name: "The Critical Path"
   sort_friendly_name: "Critical Path, The"
   site_url: http://5by5.tv/criticalpath
   rss_feed_url: http://feeds.5by5.tv/criticalpath
-  artwork_image: http://icebox.5by5.tv/images/broadcasts/24/cover.jpg
+  artwork_image_filename: critical_path.jpg
 
 - name: "Hello Internet"
   sort_friendly_name: "Hello Internet"
   site_url: http://www.hellointernet.fm/
   rss_feed_url: http://feeds.podtrac.com/m2lTaLRx8AWb
-  artwork_image: http://static.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/52ebf67fe4b0f4af2a4502d8/1391195777839/1500w/Hello%20Internet.003.png
+  artwork_image_filename: hello_internet.jpg
 
 - name: "NextMarket Podcast"
   sort_friendly_name: "NextMarket Podcast"
   site_url: http://www.technology.fm/nextmarketpodcast/
   rss_feed_url: http://feeds.feedburner.com/soundcloud/JEcj
-  artwork_image: http://i1.sndcdn.com/avatars-000028084647-xnmd4m-original.png
+  artwork_image_filename: next_market.jpg
 
 - name: "Pragmatic"
   sort_friendly_name: "Pragmatic"
   site_url: https://engineered.network/pragmatic/
   rss_feed_url: https://engineered.network/pragmatic/feed/index.xml
-  artwork_image: https://engineered.network/img/pragmatic/pragmaticfeed.png
+  artwork_image_filename: pragmatic.jpg
 
 - name: "Startups For The Rest of Us"
   sort_friendly_name: "Startups For The Rest of Us"
   site_url: http://www.startupsfortherestofus.com/
   rss_feed_url: http://feeds.feedburner.com/StartupsForTheRestOfUs
-  artwork_image: http://www.startupsfortherestofus.com/wp-content/uploads/sftrou_144x144.jpg
+  artwork_image_filename: startups_for_the_rest_of_us.jpg
 
 - name: "Systematic"
   sort_friendly_name: "Systematic"
   site_url: http://www.esn.fm/systematic/
   rss_feed_url: http://feedpress.me/s
-  artwork_image: http://static1.squarespace.com/static/52edbc9de4b0b870f5f7ed49/t/546ffa58e4b09e5ea7df4709/1416624728939/1500w/Systematic.jpg
+  artwork_image_filename: systematic.jpg
 
 - name: "You Are Not So Smart"
   sort_friendly_name: "You Are Not So Smart"
   site_url: http://youarenotsosmart.com/podcast/
   rss_feed_url: http://youarenotsosmart.com/feed/
-  artwork_image: http://1.gravatar.com/blavatar/dffb6eb09ffcdc2610d174d44d18b7eb?s=96&d=http%3A%2F%2Fs2.wp.com%2Fi%2Fbuttonw-com.png
+  artwork_image_filename: you_are_not_so_smart.jpg
 
 - name: "The Bike Shed"
   sort_friendly_name: "Bike Shed, The"
   site_url: http://bikeshed.fm/
   rss_feed_url: http://simplecast.fm/podcasts/282/rss
-  artwork_image: http://simplecast-media.s3.amazonaws.com/podcast/image/282/1433513863-artwork.jpg
+  artwork_image_filename: bike_shed.jpg
 
 - name: "Core Intuition"
   sort_friendly_name: "Core Intuition"
   site_url: http://www.coreint.org/
   rss_feed_url: http://www.coreint.org/podcast.xml
-  artwork_image: http://coreint.org/images/newlogo_1400.png
+  artwork_image_filename: core_intuition.jpg
 
 - name: "Developing Perspective"
   sort_friendly_name: "Developing Perspective"
   site_url: http://developingperspective.com/
   rss_feed_url: http://developingperspective.com/feed/podcast/
-  artwork_image: http://developingperspective.s3.amazonaws.com/logo_small.png
+  artwork_image_filename: developing_perspective.jpg
 
 - name: "Kalzumeus Software"
   sort_friendly_name: "Kalzumeus Software"
   site_url: http://www.kalzumeus.com/category/podcasts/
   rss_feed_url: http://www.kalzumeus.com/category/podcasts/feed/
-  artwork_image: http://www.kalzumeus.com/images/podcast-kalzumeus.jpg
+  artwork_image_filename: kalzumeus.jpg
 
 - name: "StartUp Podcast"
   sort_friendly_name: "StartUp Podcast"
   site_url: http://hearstartup.com/
   rss_feed_url: http://feeds.hearstartup.com/hearstartup
-  artwork_image: http://i1.sndcdn.com/avatars-000102492642-eo40yt-original.png
+  artwork_image_filename: startup.jpg
 
 - name: "This Developer's Life"
   sort_friendly_name: "This Developer's Life"
   site_url: http://thisdeveloperslife.com/
   rss_feed_url: http://feeds.feedburner.com/ThisDevelopersLife?format=xml
-  artwork_image: http://www.thisdeveloperslife.com/images/logo_full1400.jpg
+  artwork_image_filename: this_developers_life.jpg
 
 - name: "Radiolab"
   sort_friendly_name: "Radiolab"
   site_url: http://www.radiolab.org/series/podcasts/
   rss_feed_url: http://feeds.wnyc.org/radiolab
-  artwork_image: http://www.wnyc.org/i/raw/1/Radiolab_1.png
+  artwork_image_filename: radiolab.jpg
 
 - name: "Roderick on the Line"
   sort_friendly_name: "Roderick on the Line"
   site_url: http://www.merlinmann.com/roderick/
   rss_feed_url: http://feeds.feedburner.com/RoderickOnTheLine
-  artwork_image: http://hotdogsladies.squarespace.com/storage/rotl/roderick%20on%20the%20line.jpg
+  artwork_image_filename: roderick_on_the_line.jpg
 
 - name: "Full Stack Radio"
   sort_friendly_name: "Full Stack Radio"
   site_url: http://fullstackradio.com/
   rss_feed_url: http://simplecast.fm/podcasts/279/rss
-  artwork_image: http://simplecast-media.s3.amazonaws.com/podcast/image/279/1413649662-artwork.jpg
+  artwork_image_filename: full_stack_radio.jpg
 
 - name: "Song Exploder"
   sort_friendly_name: "Song Exploder"
   site_url: http://www.maximumfun.org/shows/song-exploder
   rss_feed_url: http://songexploder.libsyn.com/rss
-  artwork_image: http://static.libsyn.com/p/assets/8/c/d/e/8cde41fdbde21153/songexploder-3d-1400px.png
+  artwork_image_filename: song_exploder.jpg
 
